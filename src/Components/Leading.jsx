@@ -1,6 +1,6 @@
 import React from 'react'
 import Image1 from '../assets/logo/pictures/React.svg'
-import Image2 from '../assets/logo/pictures/jsFrame.svg'
+import Image2 from '../assets/logo/pictures/Frame.svg'
 import Image3 from '../assets/logo/pictures/Python.svg'
 import Image4 from '../assets/logo/pictures/Aws.svg'
 import Image5 from '../assets/logo/pictures/Postgre.svg'
