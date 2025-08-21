@@ -6,7 +6,7 @@ export default function StaffServices() {
     <>
 <div className='bg-[#F9FAFB]'>
     <div className='max-w-[1810px] mx-auto flex flex-col-reverse lg:flex-row lg:items-center gap-[70px] 2xl:gap-40 px-6 py-16 lg:py-24'>
-        <img className='w-[856px] h-[856px]' src={Image} alt="" />
+        <img className='lg:size-[506px] xl:size-[656px] 2xl:size-[856px]' src={Image} alt="" />
         <StaffProp 
         text={'Staff Augmentation'}
         secondtext={'Services'}

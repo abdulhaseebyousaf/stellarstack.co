@@ -5,11 +5,11 @@ const Header = () => {
   return (
     <div>
     <nav className='bg-[#F9FAFB] fixed w-full top-0 right-0 z-50 shadow-md'>
-<div className='max-w-[1810px] mx-auto  px-4 py-1 flex justify-between items-center z-50'>
+<div className='max-w-[1810px] mx-auto w-full px-4 py-1 flex justify-between items-center z-50'>
 <a href="#">
     <img src={Logo} alt="error" />
 </a>
-<div className='gap-16 items-center md:flex'>
+<div className='gap-16 hidden items-center md:flex'>
 <div className='flex gap-6 text-base font-normal text-[#204285] items-center relative'>
 <HeaderProp 
 About={'About Us'}
