@@ -12,21 +12,21 @@ export default function LeadingProp({
   const videoRef = useRef(null); 
       const [isPlaying, setIsPlaying] = useState(false);
           const togglePlayPause = () => {
-        if (videoRef.current.paused) {
+            if (videoRef.current.paused) {
           videoRef.current.play();
-          setIsPlaying(false);
+          setIsPlaying(true);
         } else {
           videoRef.current.pause();
-          setIsPlaying(true);
+          setIsPlaying(false);
         }
       };
   return (
     <>
       <h5 className="pt-6 text-2xl font-semibold text-center">
-        {text}{" "}
+        {text}
         <a className="underline" href="#">
           {secondtext}
-        </a>{" "}
+        </a>
       </h5>
       <div className="max-w-[1704px] mx-auto px-6 pb-16 md:pb-24 2xl::pb-32 lg:pt-16">
         <h2 className="text-5xl lg:text-6xl 2xl:text-[80px] font-bold text-center text-[#231F20]">
@@ -43,12 +43,14 @@ export default function LeadingProp({
             loop
             src={Video}
           ></video>
-          <button onClick={togglePlayPause}
-            className="absolute z-10 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
-            type="button"
-          >
-            <img  src={Image} alt="playbutton" />
-          </button>
+        {!isPlaying && (  
+          <img onClick={togglePlayPause}
+          className="absolute  z-10 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+          src={Image}
+          alt="playbutton"
+          />
+        )
+        }
         </div>
       </div>
     </>

@@ -4,7 +4,7 @@ const HeaderProp = ({About, our, Staff, How, service, Technologies}) => {
   const [isHoverd, setIsHoverd] = useState(false)
   return (
     <>
-      <a  href="#">{About}</a>
+      <a  href="/about-us">{About}</a>
       <div  onMouseEnter={() => setIsHoverd(true)}
       onMouseLeave={() => setIsHoverd(false)}
        className='relative'>
@@ -17,7 +17,7 @@ const HeaderProp = ({About, our, Staff, How, service, Technologies}) => {
 )}
 <button  type="button" className='text-base  font-normal text-[#204285] hover:text-blue-600 transition-colors duration-200'>{service}</button>
       </div>
-      <a href="#">{Technologies}</a>
+      <a href="/our-technologies">{Technologies}</a>
     </>
   )
 }
