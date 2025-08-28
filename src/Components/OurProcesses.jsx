@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function OurProcess() {
+export default function OurProcesses() {
   return (
     <div className="bg-[#f9fafc]">
       <div class="max-w-[1810px] mx-auto grid lg:grid-cols-2 gap-6 md:place-items-center px-6 py-16 md:py-24 2xl:py-32">

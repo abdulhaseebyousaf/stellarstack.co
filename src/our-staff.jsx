@@ -3,7 +3,7 @@ import ItStaff from './Components/ItStaff'
 import KeyBenifit from './Components/KeyBenifit'
 import StaffArgument from './Components/StaffArgument'
 import StaffAnimation from './Components/StaffAnimationns';
-import OurProcess from './Components/ourProcess'
+import OurProcess from './Components/OurProcesses'
 import Journey from './Components/Journey'
 import StaffLast from './Components/StaffLast'
 
