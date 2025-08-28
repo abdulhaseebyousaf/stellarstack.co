@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function staffAnimation() {
+export default function StaffAnimationns() {
   return (
     <div className="bg-[#e3e5da]">
       <div className="max-w-[1810px] mx-auto px-6 py-16 lg:py-24 2xl:py-32">
