@@ -45,7 +45,7 @@ export default function LeadingProp({
           ></video>
         {!isPlaying && (  
           <img onClick={togglePlayPause}
-          className="absolute  z-10 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+          className="absolute  z-10 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer size-20 lg:size-32 2xl:size-48 "
           src={Image}
           alt="playbutton"
           />
