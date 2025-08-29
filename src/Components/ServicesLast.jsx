@@ -1,5 +1,5 @@
 import React from 'react'
-import final from  '../assets/logo/pictures/FInalCta.webp' 
+import final from  '../assets/logo/pictures/FinalCta.webp' 
 export default function ServicesLast() {
   return (
     <div className='bg-[#e3e5da]'>
