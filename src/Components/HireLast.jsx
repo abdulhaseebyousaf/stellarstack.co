@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/logo/pictures/FinalCta.webp"
+import Image from "../assets/logo/pictures/FInalCta.webp"
 export default function HireLast() {
   return (
     <div>
