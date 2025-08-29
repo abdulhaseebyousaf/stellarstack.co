@@ -208,7 +208,7 @@ export default function Html() {
         <div className='max-w-[1810px] mx-auto w-full  lg:py-26 sm:py-20 py-16 px-6' >
             <div  className='sm:grid lg:grid-cols-5 sm:grid-cols-4 grid-cols-3 md:gap-y-24 sm:gap-y-20 gap-y-16 sm:gap-x-[10%] gap-x-[2%] flex flex-wrap justify-between'>
           {data.map((items, index) => (
-                <div key={index} className='flex flex-col justify-center items-center sm:w-auto w-[100px]' >
+                <div key={index} className='flex flex-col justify-center items-center sm:w-auto w-[100px]'>
 <img className='md:w-[120px] sm:w-[100px] w-[80px] h-auto' src={items.src} alt="" />
 <p className='font-medium text-[#231F20] md:text-xl text-lg mt-1 text-center'>{items.text}</p>
                 </div>
