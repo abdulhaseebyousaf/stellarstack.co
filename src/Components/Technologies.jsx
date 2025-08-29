@@ -1,5 +1,5 @@
 import React from 'react'
-import OfficeTable from '../assets/logo/pictures/OfficeTables.webp'
+import OfficeTable from '../assets/logo/pictures/officeTables.webp'
 export default function Technologies() {
   return (
     <div className='bg-[#E4E5DA]'>
