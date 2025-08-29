@@ -1,5 +1,5 @@
 import React from 'react'
-import Image from '../assets/logo/pictures/OfficeTables.webp'
+import OfficeTable from '../assets/logo/pictures/OfficeTables.webp'
 export default function Technologies() {
   return (
     <div className='bg-[#E4E5DA]'>
@@ -9,7 +9,7 @@ export default function Technologies() {
 <p className="text-[#231F20] text-[20px] font-normal leading-6">At StellarStack, we aim to be ahead of the game. We work with tech profiles that master the avant-garde technologies that currently shape and enhance the digital acceleration process</p>
 </div>
 <div>
-    <img src={Image} alt="" />
+    <img src={OfficeTable} alt="" />
 </div>
 </div>
     </div>
