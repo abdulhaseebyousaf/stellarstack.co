@@ -1,5 +1,5 @@
 import React from "react";
-import Image from "../assets/logo/pictures/FInalCta.webp"
+import Imageone from "../assets/logo/pictures/FInalCta.webp"
 export default function HireLast() {
   return (
     <div>
@@ -23,7 +23,7 @@ export default function HireLast() {
             <span>Get in Touch</span>
           </a>
         </div>
-      <img src={Image} alt=""  />
+      <img src={Imageone} alt=""  />
       </div>
     </div>
   );

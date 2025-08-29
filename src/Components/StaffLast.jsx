@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../assets/logo/pictures/FInalCta.webp";
+import imageFinal from "../assets/logo/pictures/FInalCta.webp";
 export default function StaffLast() {
   return (
     <div className="bg-[#e3e5da]">
@@ -22,7 +22,7 @@ export default function StaffLast() {
           <span>Let's build my team</span>
         </a>
       </div>
-      <img alt="error" src={image}></img>
+      <img alt="error" src={imageFinal}></img>
     </div>
   );
 }

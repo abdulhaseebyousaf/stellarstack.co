@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from  '../assets/logo/pictures/FInalCta.webp' 
+import final from  '../assets/logo/pictures/FInalCta.webp' 
 export default function ServicesLast() {
   return (
     <div className='bg-[#e3e5da]'>
@@ -11,7 +11,7 @@ export default function ServicesLast() {
                  </h2>
                  <p className="pt-8 pb-12">We’ll map out your project in just a few meetings using our proven Agile estimation technique.</p>
                  <a className="flex items-center gap-2 rounded-md text-white bg-[#204285] hover:bg-[#163369] hover:shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer w-max text-sm font-medium px-5 py-3"  href="/about-us"><span>Get in Touch</span></a>
-     <img src={Logo} alt="error" />
+     <img src={final} alt="error" />
         </div>
     </div>
   )
