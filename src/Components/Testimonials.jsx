@@ -107,7 +107,7 @@ const Testimonials = () => {
                       <span>{items.text} </span>
                     </p>
                     <div className="mt-6 font-medium">{items.descrption}</div>
-                    <div class="text-sm italic text-[#4B5563]">
+                    <div className="text-sm italic text-[#4B5563]">
                       {items.referance}
                     </div>
                   </div>

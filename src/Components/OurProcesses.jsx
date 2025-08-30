@@ -3,23 +3,23 @@ import React from "react";
 export default function OurProcesses() {
   return (
     <div className="bg-[#f9fafc]">
-      <div class="max-w-[1810px] mx-auto grid lg:grid-cols-2 gap-6 md:place-items-center px-6 py-16 md:py-24 2xl:py-32">
+      <div className="max-w-[1810px] mx-auto grid lg:grid-cols-2 gap-6 md:place-items-center px-6 py-16 md:py-24 2xl:py-32">
         <div>
-          <p class="text-base xl:text-lg font-bold text-[#204285]">
+          <p className="text-base xl:text-lg font-bold text-[#204285]">
             OUR PROCESS
           </p>
-          <h2 class="text-5xl lg:text-6xl 2xl:text-[65px] font-bold 2xl:leading-24 tracking-[-1.5px] text-[#204285]">
-            <span class="text-[#231F20]">How It</span> Works
+          <h2 className="text-5xl lg:text-6xl 2xl:text-[65px] font-bold 2xl:leading-24 tracking-[-1.5px] text-[#204285]">
+            <span className="text-[#231F20]">How It</span> Works
           </h2>
-          <p class="pt-3 max-w-[716px] text-xl text-[#231F20]">
+          <p className="pt-3 max-w-[716px] text-xl text-[#231F20]">
             We are committed to your business success, and to achieve such a
             mission, we assemble your team quickly through a seamless hiring
             process
           </p>
         </div>
-        <div class="sm:flex gap-7 items-center rounded-xl bg-[#cdd4e4] px-6 py-12">
+        <div className="sm:flex gap-7 items-center rounded-xl bg-[#cdd4e4] px-6 py-12">
           <div>
-            <div class="flex items-center justify-center sm:mx-auto size-[42px] rounded-full bg-[#204285]">
+            <div className="flex items-center justify-center sm:mx-auto size-[42px] rounded-full bg-[#204285]">
               <svg
                 width="16"
                 height="22"
@@ -33,11 +33,11 @@ export default function OurProcesses() {
                 ></path>
               </svg>
             </div>
-            <h2 class="pt-1 text-2xl font-bold sm:text-center text-[#204285]">
+            <h2 className="pt-1 text-2xl font-bold sm:text-center text-[#204285]">
               How?
             </h2>
           </div>
-          <p class="text-xl font-normal text-[#231F20]">
+          <p className="text-xl font-normal text-[#231F20]">
             Through an efficient staff augmentation three-step methodology
             designed to deliver customized solutions to every business. Whether
             you need a single hire or an entire team, we source the best

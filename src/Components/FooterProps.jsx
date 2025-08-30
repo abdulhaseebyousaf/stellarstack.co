@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function FooterProps({text, second, third, forth}) {
   return (
@@ -8,19 +9,19 @@ function FooterProps({text, second, third, forth}) {
 {text}
 </li>
 <li className='mb-[18px]'>
-<a href="">
+<Link to="/about-us">
 {second}
-</a>
+</Link>
 </li>
 <li className='mb-[18px]'>
-<a href="">
+<Link to="/our-technologies">
 {third}
-</a>
+</Link>
 </li>
 <li >
-<a href="">
+<Link to="/caseStudy">
 {forth}
-</a>
+</Link>
 </li>
 
 </ul>

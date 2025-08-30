@@ -22,7 +22,7 @@ function Mobile() {
         "We comprehend the urgency of businesses in obtaining cutting-edge solutions, and our talent pool is primed to deliver excellence in both web and mobile app development.",
     },
     {
-      image: SeconfImage,
+      secondsImage: SeconfImage,
       Logo:logosec,
       heading: "UI-UX Design",
       text: "We understand the importance of exceptional UI/UX in creating competitive digital solutions.",
@@ -31,7 +31,7 @@ function Mobile() {
     },
     {
       Logo:logothird,
-      image:  SecondImage ,
+      secondsImage:  SecondImage ,
       heading: "Web Development",
       text: "We understand how important it is for businesses to get competitive web solutions.",
       descrption:
@@ -39,7 +39,7 @@ function Mobile() {
     },
     {
      Logo:Forthlogo,
-      image: thirdImage,
+      secondsImage: thirdImage,
       heading: "Tech Modernization",
       text: "At our core, we are driven by a relentless dedication to technology modernization. We understand that in today's fast-paced digital landscape, staying at the forefront of technological advancements is imperative.",
       descrption:
@@ -66,9 +66,16 @@ function Mobile() {
           {Data.map((item, index) => (
             <SwiperSlide key={index}>
               <div className="max-w-[1810px] mx-auto px-6 md:flex items-center gap-10 lg:gap-20 justify-between">
-                <div className="max-sm:h-[200px] md:w-[40%] max-sm:mx-auto max-sm:w-[250px] max-md:w-[550px]">
+              {item.image &&
+                <div className="max-sm:h-[200px] md:w-[40%] w-[150px] sm:w-[350px]  lg:w-[300px] 2xl:w-[440px] mx-auto">
                   <img src={item.image} alt="" />
                 </div>
+                }
+                {item.secondsImage &&
+                  <div className="max-sm:h-[200px] md:w-[40%] max-sm:mx-auto max-sm:w-[250px] max-md:w-[550px]">
+                  <img src={item.secondsImage} alt="" />
+                </div>
+                }
 
                 <div className="md:w-[60%]">
                   <div className="size-[53px] mb-3 rounded-full bg-[#204285] flex items-center justify-center">

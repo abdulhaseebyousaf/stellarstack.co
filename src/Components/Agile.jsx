@@ -55,8 +55,8 @@ export default function Agile() {
         <div className='max-w-[1737px] mx-auto px-6 lg:flex justify-between gap-[10%] items-center'>
 <div>
 {/*  */}
-    {Data.map((item) =>(
-<div className='pt-16 xl:pt-20'>
+    {Data.map((item,index) =>(
+<div key={index} className='pt-16 xl:pt-20'>
   <img src={item.image} alt="error" />
     <h3 className='pt-2.5 text-2xl lg:text-[28px] 2xl:text-[40px] font-semibold text-[#204285]'>{item.heading}</h3>
    

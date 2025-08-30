@@ -14,11 +14,11 @@ export default function ItStaff() {
             IT professionals.
           </p>
           <a  href="/about-us">
-            <button class="flex items-center gap-2 rounded-md text-white bg-[#204285] hover:bg-[#163369] hover:shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer w-max text-lg font-medium px-9 py-2.5">
+            <button className="flex items-center gap-2 rounded-md text-white bg-[#204285] hover:bg-[#163369] hover:shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer w-max text-lg font-medium px-9 py-2.5">
               <span>Start Today</span>
             </button>
           </a>
-          <div class="mt-16 w-72 h-[2px] bg-[#71717A]"></div>
+          <div className="mt-16 w-72 h-[2px] bg-[#71717A]"></div>
         </div>
         <img
           className="max-md:mx-auto w-[507px] 2xl:w-[807px] max-md:order-1"

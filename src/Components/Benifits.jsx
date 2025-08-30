@@ -34,8 +34,8 @@ export default function Benifits() {
     <p className="text-base xl:text-lg font-bold text-center text-[#204285]">KEY FEATURE</p>
     <h2 className="pt-1.5 text-5xl xl:text-[64px] font-bold text-center text-[#231F20]">Benefits</h2>
     <div className='flex justify-center flex-wrap gap-x-[7.5%] gap-y-16 max-w-[1050px] mx-auto px-6 mt-16 md:mt-32'>
-{Data.map((item) => (
-        <div className='px-2 pt-7 w-[282px] h-[338px] rounded-t-full rounded-b-2xl bg-[#FFFFFF]'>
+{Data.map((item,index) => (
+        <div key={index} className='px-2 pt-7 w-[282px] h-[338px] rounded-t-full rounded-b-2xl bg-[#FFFFFF]'>
             <div className='size-[198px] mx-auto rounded-full bg-[#204285] flex items-center justify-center' >
 <img className='w-auto h-auto max-w-full max-h-full' src={item.Logo} alt="" />
             </div>

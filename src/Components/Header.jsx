@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Logo from '../assets/logo/Logo.svg'
 import HeaderProp from './HeaderProp'
+import { Link } from 'react-router-dom';
 const Header = () => {
   const [showData, setShowData] = useState(false);
   const toggleData = () => {
@@ -32,7 +33,7 @@ Technologies={'Our Technologies'}
 <div  className='md:hidden pr-2' >
 <div className='menuToggle' >
 <input type="checkbox" className='hidden' id='checkbox' />
-<label onClick={toggleData} className="toggle open cursor-pointer w-8 h-5 m-auto block relative " For="checkbox" aria-label="Toggle menu">
+<label onClick={toggleData} className="toggle open cursor-pointer w-8 h-5 m-auto block relative " htmlFor="checkbox" aria-label="Toggle menu">
 <div className="h-[4px] text-inherit opacity-100 bg-[#204285] rounded-[2px] transition-[none_.35s_cubic-bezier(.5,-.35,.35,1.5)] absolute left-0 right-0  bar--top"></div>
 <div className="h-[4px] text-inherit opacity-100 bg-[#204285] rounded-[2px] transition-[none_.35s_cubic-bezier(.5,-.35,.35,1.5)] absolute left-0 right-0 bar--middle"></div>
 <div className="h-[4px] text-inherit opacity-100 bg-[#204285] rounded-[2px] transition-[none_.35s_cubic-bezier(.5,-.35,.35,1.5)] absolute left-0 right-0 bar--bottom"></div>
@@ -40,11 +41,11 @@ Technologies={'Our Technologies'}
 {showData && (
 <div id='scroll' className='fixed left-0  right-0 top-[77px] h-[calc(100vh-77px)] bg-[#F9FAFB] transition-all duration-500 ease-in-out 
 md:hidden flex flex-col items-center justify-center space-y-8 text-[#204285] text-xl font-medium px-6 pb-10 z-40 opacity-100 translate-y-0 pointer-events-auto'>
-   <a href="/about-us">About Us</a>
-   <a href="#">Our Services</a>
-   <a href="#">Staff Augmentation</a>  
-   <a href="#">How we Hire</a>
-   <a href="#">Our Technologies</a>
+   <Link to="/about-us">About Us</Link>
+   <Link to="/our-services">Our Services</Link>
+   <Link to="/our-staff">Staff Augmentation</Link>  
+   <Link to="how-we-hire">How we Hire</Link>
+   <Link to="/our-technologies">Our Technologies</Link>
    <button className="flex items-center gap-2 rounded-md text-white bg-[#204285] hover:bg-[#163369] hover:shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer w-max text-sm font-medium px-5 py-2"><span>Contact Us</span></button>
         </div>
 )} 

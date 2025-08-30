@@ -1,5 +1,6 @@
 import React from "react";
 import Case from '../assets/logo/logos/Case.svg'
+import { Link } from "react-router-dom";
 function CaseStudies() {
   const data = [
     { id: 1, text: "Case Studies" },
@@ -39,12 +40,12 @@ function CaseStudies() {
                 )}
 
                 {item.text2 && (
-                  <a href="" className="text-lg md:text-xl text-[#204285] font-medium inline-flex items-center group">
+                  <Link href="" className="text-lg md:text-xl text-[#204285] font-medium inline-flex items-center group">
                     {item.text2}
                      <span className='mt-0.5 ml-2 transition-transform group-hover:translate-x-1'>
                        <img src={Case} alt="" />
                         </span>
-                  </a>
+                  </Link>
                 )}
 
               </div>
@@ -65,12 +66,12 @@ function CaseStudies() {
                   </p>
                 )}
                 {item.text2 && (
-                  <a href="" className="text-lg md:text-xl text-[#204285] font-medium inline-flex items-center group">
+                  <Link href="" className="text-lg md:text-xl text-[#204285] font-medium inline-flex items-center group">
                     {item.text2}
                      <span className='mt-0.5 ml-2 transition-transform group-hover:translate-x-1'>
                        <img src={Case} alt="" />
                         </span>
-                  </a>
+                  </Link>
                 )}
 
               </div>

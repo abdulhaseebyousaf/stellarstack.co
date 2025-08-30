@@ -20,7 +20,7 @@ export default function TopThree() {
     <>
       <div className="pt-16 lg:pt-24 xl:pt-36 max-w-[1184px] mx-auto px-6">
         <p className="text-lg font-normal text-center text-[#204285]">
-          THE TOP <span class="text-[32px]">3%</span>
+          THE TOP <span className="text-[32px]">3%</span>
         </p>
         <p className="max-w-[900px] mx-auto text-xl text-center text-[#204285]">
           We've iterated our Vetting Process to make it agile and efficient, so
@@ -39,9 +39,8 @@ export default function TopThree() {
           </div>
           <div>
             {Data.map((item, index) => (
-              <div className="">
+              <div key={index} className="">
                 <div
-                  key={index}
                   className={`${
                     index === 1 ? "flex justify-end" : "flex items-center"
                   }`}

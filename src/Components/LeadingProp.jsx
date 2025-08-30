@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import Image from "../assets/logo/pictures/playbutton.svg";
 import Video from "../assets/logo/video/JustinPetaFeedback.mp4";
+import { Link } from "react-router-dom";
 
 export default function LeadingProp({
   text,
@@ -27,7 +28,7 @@ export default function LeadingProp({
     <>
       <h5 className="pt-6 text-2xl font-semibold text-center">
         {text}
-        <a className="underline" href="#">{secondtext}</a>
+        <Link className="underline" to="/our-technologies">{secondtext}</Link>
       </h5>
 
       <div className="max-w-[1704px] mx-auto px-6 pb-16 md:pb-24 2xl:pb-32 lg:pt-16">
@@ -57,7 +58,7 @@ export default function LeadingProp({
             <button
               type="button"
               onClick={togglePlayPause}
-              className="absolute z-10 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 cursor-pointer"
+              className="absolute z-10 left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2"
               aria-label="Play video"
             >
               <img

@@ -11,12 +11,12 @@ export default function StaffLast() {
             a TOP-Performing team on board
           </span>
         </h2>
-        <p class="pt-8 pb-12">
+        <p className="pt-8 pb-12">
           We’ll map out your project in just a few meetings using our proven
           Agile estimation technique.
         </p>
         <a
-          class="flex items-center gap-2 rounded-md text-white bg-[#204285] hover:bg-[#163369] hover:shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer w-max text-sm font-medium px-5 py-3"
+          className="flex items-center gap-2 rounded-md text-white bg-[#204285] hover:bg-[#163369] hover:shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer w-max text-sm font-medium px-5 py-3"
            href="/about-us"
         >
           <span>Let's build my team</span>
