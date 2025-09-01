@@ -1,5 +1,5 @@
 import React from "react";
-import Imageone from "../assets/logo/pictures/FinalCta.webp"
+import Imageone from "../assets/logo/logos/FinalCta.webp"
 export default function HireLast() {
   return (
     <div>

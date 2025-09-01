@@ -1,14 +1,14 @@
 import React from 'react'
 import Technologies from './Components/Technologies'
 import TechnologiesReact from './Components/TechnologiesReact'
-import Html from './Components/Html'
+import Logos from './Components/Logos'
 
 export default function ourtechnologies() {
   return (
     <>
 <Technologies />
 <TechnologiesReact />
-<Html />
+<Logos />
     </>
   )
 }

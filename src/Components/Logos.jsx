@@ -39,7 +39,7 @@ import Logo37 from '../assets/logo/logos/Jira.490607ff.svg'
 import Logo38 from '../assets/logo/logos/Asana.d8c85970.svg'
 import Logo39 from '../assets/logo/logos/GitHub.a0253469.svg'
 import Logo40 from '../assets/logo/logos/GitLab.svg'
-export default function Html() {
+export default function Logos() {
     const data = [
         {
             src: Logo1,
