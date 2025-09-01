@@ -1,5 +1,5 @@
 import React from "react";
-import imageFinal from "../assets/logo/pictures/FinalCta.webp";
+import imageFinal from "../assets/logo/pictures/Final.webp";
 export default function StaffLast() {
   return (
     <div className="bg-[#e3e5da]">
