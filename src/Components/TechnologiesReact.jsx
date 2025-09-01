@@ -65,3 +65,5 @@ function TechnologiesReact() {
 }
 
 export default TechnologiesReact
+
+
