@@ -19,7 +19,7 @@ export default function TopThree() {
   return (
     <>
       <div className="pt-16 lg:pt-24 xl:pt-36 max-w-[1184px] mx-auto px-6">
-        <p className="text-lg font-normal text-center text-[#204285]">
+        <p className="text-lg font-semibold text-center text-[#204285]">
           THE TOP <span className="text-[32px]">3%</span>
         </p>
         <p className="max-w-[900px] mx-auto text-xl text-center text-[#204285]">

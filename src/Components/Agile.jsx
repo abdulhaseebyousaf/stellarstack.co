@@ -28,7 +28,7 @@ export default function Agile() {
     {
       tick:Tick,
       image:Logo1,
-      heading:"Project Starts!",
+      heading:"Project Starts",
       Text:'We specialize in Agile Software Development, which is highly collaborative and efficient.',
       Text2:"First functional delivery in the first 2 sprints, guaranteed.",
     },
@@ -58,7 +58,7 @@ export default function Agile() {
     {Data.map((item,index) =>(
 <div key={index} className='pt-16 xl:pt-20'>
   <img src={item.image} alt="error" />
-    <h3 className='pt-2.5 text-2xl lg:text-[28px] 2xl:text-[40px] font-semibold text-[#204285]'>{item.heading}</h3>
+    <h3 className='pt-2.5 text-2xl lg:text-[28px] 2xl:text-[40px] font-semibold text-[#204285]'>{item.heading}!</h3>
    
    <div  className='relative mt-6 md:ml-24 py-5 xl:py-8 pl-5 custom-border-box border-l-[6px] border-solid border-[#204285] rounded-bl-xl rounded-tl-xl' >
       

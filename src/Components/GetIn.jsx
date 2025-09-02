@@ -8,7 +8,7 @@ function GetIn() {
     <>
       <section className="bg-[#e3e5da] py-16 lg:py-24 px-6">
         <div className="text-center mb-12">
-          <p className="text-lg text-[#204285] font-normal">Get in touch</p>
+          <p className="text-lg text-[#204285] font-bold uppercase">Get in touch</p>
           <h2 className="text-2xl md:text-3xl font-medium text-[#020817] mt-2">
             Ready to discuss your project? Contact us today for a consultation
           </h2>
@@ -19,25 +19,25 @@ function GetIn() {
             <div className="py-8 space-y-5">
               <GetInProp
                 Image={Logo1}
-                text={"Location"}
-                second={"San Francisco Bay Area, United States "}
-                third={"Kingsway #2600-4720, Burnaby, BC V5H 4N2, Canada"}
-                forth={"Islamabad, Pakistan"}
+                text={"Locations:"}
+                second={"San Francisco Bay Area, United States."}
+                third={"Kingsway #2600-4720, Burnaby, BC V5H 4N2, Canada."}
+                forth={"Islamabad, Pakistan."}
               />
               <GetInProp
                 Image={Logo2}
-                text={"Email"}
+                text={"Emails:"}
                 second={"info@stellarstack.co"}
                 third={"support@stellarstack.co"}
               />
               <GetInProp
                 Image={Logo3}
-                text={"Phone"}
+                text={"Phone:"}
                 second={"+1 (604) 555-1234"}
               />
             </div>
             <div>
-              <p className="text-lg font-semibold">Office Hours</p>
+              <p className="text-lg font-semibold">Office Hours:</p>
               <p className="text-base">Monday - Friday, 9am – 6pm PST</p>
               <p className="text-base">Remote support available 24/7</p>
             </div>

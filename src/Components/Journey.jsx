@@ -15,7 +15,7 @@ export default function Journey() {
             id:2,
             image:Image2,
             heading:"Next Step:",
-            Secondhaeding:"Kicking Off Your Plan",
+            Secondhaeding:"Kicking Off Your Plan!",
             description:"Once we have outlined and tailored our solutions, we move on to the next step: finding the perfect match! We put our sophisticated hiring methodology in motion and source up to three expert candidates within 48 hours only. In case you don't find the right fit for the position, we start over the process taking between 1-2 weeks.",
         },
         {
@@ -29,7 +29,7 @@ export default function Journey() {
   return (
     <div className='bg-[#e3e5da]'>
         <div className='max-w-[1527px] mx-auto px-6 pt-16 lg:pt-24 2xl:pt-32'>
-            <h2 className="text-lg font-bold text-center text-[#020817]">YOUR IT STAFFING JOURNEY WITH STELLAR Stack</h2>
+            <h2 className="text-lg font-bold text-center text-[#020817]">YOUR IT STAFFING JOURNEY WITH STELLARStack</h2>
 <div  className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-12 mt-12'>
 {Data.map((item, index) =>(
 <div key={index} className='bg-[#CDD4DF] px-5 py-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300'>

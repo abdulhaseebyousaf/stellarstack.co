@@ -9,23 +9,23 @@ export default function Benifits() {
     const Data =[
         {
         Logo:Image,
-   text:"Cost and risk reduction.",
+   text:"Cost and Risk Reduction.",
         },
         {
             Logo:Logo1,
-   text:"More time to prioritize your own project.",
+   text:"More Time To Prioritize Your Own Project.",
         },
         {
             Logo:Logo2,
-   text:"Highly skilled, English-proficient experts.",
+   text:"Highly Skilled, English Proficient Experts.",
         },
         {
             Logo:Logo3,
-   text:"No recruitment cost",
+   text:"No Recruitment Cost.",
         },
         {
             Logo:Logo4,
-   text:"Agile scale up/down",
+   text:"Agile Scale Up/Down.",
         },
     ]
   return (

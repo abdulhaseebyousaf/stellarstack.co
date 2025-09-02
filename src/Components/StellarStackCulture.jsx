@@ -23,7 +23,7 @@ function StellarStackCulture() {
               drive change in the right direction and lead companies to their
               next big step in their digital journeys.
             </p>
-            <div className="lg:w-[300px] lg:border-2 border border-[#71717A] md:mt-5 mt-3 sm:block hidden"></div>
+            <div className="lg:w-[222px] lg:border-2 border border-[#71717A] md:mt-5 mt-3 sm:block hidden"></div>
           </div>
          <div className="flex justify-center relative" >
          <img className="w-full" src={Image} alt="" />
