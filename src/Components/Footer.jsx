@@ -1,11 +1,12 @@
 import React from 'react'
 import Logo from '../assets/logo/Logo.svg'
-import Image from '../assets/logo/logos/LinkedIn.svg'
-import Image1 from '../assets/logo/logos/facebook.svg'
 import Image2 from '../assets/logo/logos/Github.svg'
 import Image3 from '../assets/logo/logos/Insta.svg'
 import FooterProps from './FooterProps'
 import { Link } from 'react-router-dom'
+import LinkedIn from '../icons/LinkedIn'
+import Facebook from '../icons/Facebook'
+
 function Footer() {
   return (
     <div className='bg-[#F9FAFB] border-t border-gray-300 text-sm text-gray-700'>
@@ -18,16 +19,16 @@ function Footer() {
         <div className='pl-2'>
           <p className='pt-1  text-[#204285]'>Imagine, Innovate, Implement.</p>
           <div className='pr-2 pt-2.5 flex gap-4 text-blue-500 text-lg'>
-            <Link  to="https://www.linkedin.com/company/stellar-stack/posts/?feedView=all">
-            <img  src={Image} />
+            <Link  to="https://www.linkedin.com/company/stellar-stack/posts/?feedView=all" className='group'>
+            <LinkedIn/>
             </Link>
-            <Link to="https://www.facebook.com/stellarstackltd?rdid=U7CaOzaYldUEstK5&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19VVoiZjSt%2F#">
-            <img  src={Image1} />
+            <Link to="https://www.facebook.com/stellarstackltd?rdid=U7CaOzaYldUEstK5&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F19VVoiZjSt%2F#" className='group'>
+            <Facebook/>
             </Link>
-            <Link to="https://github.com/StellarStack">
+            <Link to="https://github.com/StellarStack" className='group'>
             <img  src={Image2} />
             </Link>
-            <Link to="https://www.instagram.com/p/DLFEWJ5I6bd/?igsh=MWZvbHBxbThldWVrOQ%3D%3D">
+            <Link to="https://www.instagram.com/p/DLFEWJ5I6bd/?igsh=MWZvbHBxbThldWVrOQ%3D%3D" className='group'>
             <img  src={Image3} />
           </Link>
           </div>

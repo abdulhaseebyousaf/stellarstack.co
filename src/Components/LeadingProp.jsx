@@ -39,17 +39,15 @@ export default function LeadingProp({
           {lasttext}
         </p>
 
-        <div className="max-w-[80%] mx-auto mt-8 2xl:mt-12 relative flex justify-center items-center rounded-xl overflow-hidden">
+        <div className="max-w-[80%] max-lg:max-w-full max-lg:mx-0 mx-auto mt-8 2xl:mt-12 relative flex justify-center items-center rounded-xl overflow-hidden">
           <video
             ref={videoRef}
-            className="object-cover"       
-            loop
-            playsInline
+            className="object-cover w-full  max-sm:h-[256px] h-[890px] rounded-3xl"       
+            loop            
             src={Video}
             onPlay={() => setIsPlaying(true)}
             onPause={() => setIsPlaying(false)}
-            onEnded={() => setIsPlaying(false)}
-            
+            onEnded={() => setIsPlaying(false)}  
             onClick={togglePlayPause}
           />
           {!isPlaying && (

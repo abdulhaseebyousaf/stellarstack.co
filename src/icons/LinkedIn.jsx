@@ -1,0 +1,41 @@
+import React from "react";
+
+export default function LinkedIn() {
+  return (
+    <svg
+      width="23"
+      height="23"
+      viewBox="0 0 20 20"
+      xmlns="http://www.w3.org/2000/svg"
+      style={{cursor:"pointer", transition:"all 0.2s ease-in-out"}}
+    >
+      <path
+        d="M13.3333 6.66699C14.6594 6.66699 15.9312 7.19378 16.8689 8.13146C17.8065 9.06914 18.3333 10.3409 18.3333 11.667V17.5003H15V11.667C15 11.225 14.8244 10.801 14.5118 10.4885C14.1993 10.1759 13.7754 10.0003 13.3333 10.0003C12.8913 10.0003 12.4674 10.1759 12.1548 10.4885C11.8423 10.801 11.6667 11.225 11.6667 11.667V17.5003H8.33333V11.667C8.33333 10.3409 8.86011 9.06914 9.79779 8.13146C10.7355 7.19378 12.0072 6.66699 13.3333 6.66699Z"
+        stroke="#204285"
+        fill="none"
+        className="group-hover:fill-[#204285]"
+        strokeWidth="1.66667"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      ></path>
+      <path
+        d="M4.99999 7.5H1.66666V17.5H4.99999V7.5Z"
+        stroke="#204285"
+        fill="none"
+        className="group-hover:fill-[#204285]"
+        strokeWidth="1.66667"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      ></path>
+      <path
+        d="M3.33332 5.00033C4.2538 5.00033 4.99999 4.25413 4.99999 3.33366C4.99999 2.41318 4.2538 1.66699 3.33332 1.66699C2.41285 1.66699 1.66666 2.41318 1.66666 3.33366C1.66666 4.25413 2.41285 5.00033 3.33332 5.00033Z"
+        stroke="#204285"
+        fill="none"
+        className="group-hover:fill-[#204285]"
+        strokeWidth="1.66667"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+      ></path>
+    </svg>
+  );
+}
