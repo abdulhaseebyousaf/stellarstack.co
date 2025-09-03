@@ -25,9 +25,10 @@ export const TESTIMONIALS = [
         },
         {
           id: 5,
-          text: "Outstanding Frontend React Engineer with Excellent Communication and Attention to Detail I recently hired Amish for a frontend UI/UX react development project, and I couldn’t be happier with the results. From the very beginning, he demonstrated a clear understanding of modern UI/UX design and web technologies and ",
+          text: "Outstanding Frontend React Engineer with Excellent Communication and Attention to Detail I recently hired Amish for a frontend UI/UX react development project, and I couldn’t be happier with the results. From the very beginning, he demonstrated a clear understanding of modern UI/UX design and web technologies and",
           descrption: "Sal Stabler",
           referance: "Founder and CEO at Nexlayer",
+          span:'... ',
           textToHide: "best practices. His coding was efficient, well-structured, and easy to maintain, which exceeded my expectations.<br><br>Key Highlights of Our Collaboration:<br>Communication: He consistently provided timely updates, asked clarifying questions, and were receptive to suggestions.<br>Quality &amp; Attention to Detail: The user interface looked amazing, clean, polished, and aligned perfectly with our design specifications.<br>Design &amp; Architecture: Instantly understood our requirements and goals for building production quality components and services.<br>Deadlines: Despite tight timelines, he managed to deliver milestones on schedule without compromising on quality.<br>Professionalism: Any challenges that arose were handled calmly and proactively. Amish offered creative solutions that enhanced the overall user experience.<br>Speed of Delivery: Incredibly fast turn-around time.<br>I highly recommend Amish to anyone seeking a reliable, skilled frontend developer on Upwork. I will definitely reach out again for future projects!<br><br>Simply one of the best I've ever worked with in my 15+ year tech-career."
         },
         {
@@ -38,9 +39,10 @@ export const TESTIMONIALS = [
         },
         {
           id: 7,
-          text: "Outstanding Frontend React Engineer with Excellent Communication and Attention to Detail  I recently hired Amish for a frontend UI/UX react development project, and I couldn’t be happier with the results. From the very beginning, he demonstrated a clear understanding of modern UI/UX design and web technologies and ",
+          text: "Outstanding Frontend React Engineer with Excellent Communication and Attention to Detail  I recently hired Amish for a frontend UI/UX react development project, and I couldn’t be happier with the results. From the very beginning, he demonstrated a clear understanding of modern UI/UX design and web technologies and",
           descrption: "Justin Peta",
           referance: "Chairman at HCF",
+          span:'... ',
           textToHide: "best practices. His coding was efficient, well-structured, and easy to maintain, which exceeded my expectations.<br> Key Highlights of Our Collaboration:<br> Communication: He consistently provided timely updates, asked clarifying questions, and were receptive to suggestions. <br> Quality &amp; Attention to Detail: The user interface looked amazing, clean, polished, and aligned perfectly with our design specifications.<br> Design &amp; Architecture: Instantly understood our requirements and goals for building production quality components and services.<br> Deadlines: Despite tight timelines, he managed to deliver milestones on schedule without compromising on quality.<br> Professionalism: Any challenges that arose were handled calmly and proactively. Amish offered creative solutions that enhanced the overall user experience.<br> Speed of Delivery: Incredibly fast turn-around time.<br> I highly recommend Amish to anyone seeking a reliable, skilled frontend developer on Upwork. I will definitely reach out again for future projects!<br> Simply one of the best I've ever worked with in my 15+ year tech-career."
         },
         {
@@ -48,11 +50,13 @@ export const TESTIMONIALS = [
           text: "Amish was an absolute pleasure to work with — reliable, skilled, proactive, and always bringing a positive attitude to the job. His attention to detail, responsiveness, and the way he handled every challenge with professionalism and integrity is what definitely stood out.Amish has proven himself to be a great",
           descrption: "Cressan Trenhaile",
           referance: "Director of People and Culture at AgileIT",
+          span:'... ',
           textToHide:" asset to our Web Development Team. His knowledge and response times have allowed us to redesign our site quickly and efficiently. I would not hesitate to recommend his services. We are going to keep him around a little longer. :)<br> Amish went above and beyond, generating great ideas and his contributions have made a real difference.<br> It was genuinely a bittersweet feeling to see his time with us coming to an end. He was a steady, positive presence and I wish him nothing but success in the future. He will definitely be on the top of my call back list! Thank you, Amish"
         },
         {
           id: 9,
           text: "We had a great experience working with Amish. He quickly understood the project requirements and delivered high-quality work. His responsiveness and communication throughout the process were excellent. We also appreciated the thorough documentation he provided. I look forward to working together",
+          span:'... ',
           descrption: "Alexander Alcoverro",
           referance: "Founder at Bootle",
           textToHide:" again in the future!",

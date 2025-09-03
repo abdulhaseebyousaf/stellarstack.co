@@ -7,13 +7,16 @@ const Header = () => {
   const toggleData = () => {
 setShowData(!showData)
   }
+  const hideData = () => {
+   setShowData(!showData)
+  }
   return (
     <div>
     <nav className='bg-[#F9FAFB] fixed w-full top-0 right-0 z-50 shadow-md'>
 <div className='max-w-[1810px] mx-auto w-full px-4 py-1 flex justify-between items-center z-50'>
-<a href="#">
+<Link to="/">
     <img src={Logo} alt="error" />
-</a>
+</Link>
 <div className='gap-16 hidden items-center md:flex'>
 <div className='flex gap-6 text-base font-normal text-[#204285] items-center relative'>
 <HeaderProp 
@@ -39,9 +42,9 @@ Technologies={'Our Technologies'}
 <div className="h-[4px] text-inherit opacity-100 bg-[#204285] rounded-[2px] transition-[none_.35s_cubic-bezier(.5,-.35,.35,1.5)] absolute left-0 right-0 bar--bottom"></div>
 </label>
 {showData && (
-<div id='scroll' className='fixed left-0  right-0 top-[77px] h-[calc(100vh-77px)] bg-[#F9FAFB] transition-all duration-500 ease-in-out 
+<div onClick={hideData} id='scroll' className='fixed left-0  right-0 top-[77px] h-[calc(100vh-77px)] bg-[#F9FAFB] transition-all duration-500 ease-in-out 
 md:hidden flex flex-col items-center justify-center space-y-8 text-[#204285] text-xl font-medium px-6 pb-10 z-40 opacity-100 translate-y-0 pointer-events-auto'>
-   <Link to="/about-us">About Us</Link>
+     <Link to="/about-us">About Us</Link>
    <Link to="/our-services">Our Services</Link>
    <Link to="/our-staff">Staff Augmentation</Link>  
    <Link to="how-we-hire">How we Hire</Link>

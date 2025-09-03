@@ -42,8 +42,7 @@ export default function LeadingProp({
         <div className="max-w-[80%] mx-auto mt-8 2xl:mt-12 relative flex justify-center items-center rounded-xl overflow-hidden">
           <video
             ref={videoRef}
-            className="object-cover"
-       
+            className="object-cover"       
             loop
             playsInline
             src={Video}
@@ -53,7 +52,6 @@ export default function LeadingProp({
             
             onClick={togglePlayPause}
           />
-          
           {!isPlaying && (
             <button
               type="button"
