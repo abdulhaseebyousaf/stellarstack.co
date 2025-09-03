@@ -61,7 +61,7 @@ const handelNextSlide = () => {
                   </div>
               <div
   className={`italic text-xl font-normal leading-relaxed text-[#4B5563] ${
-    isShowText === items.id ? "" : "line-clamp-4"
+    isShowText === items.id ? "" : "max-[319px]:line-clamp-4"
   }`}
 >
   <span 
