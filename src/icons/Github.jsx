@@ -1,0 +1,43 @@
+import React from "react";
+
+export default function Github() {
+  return (
+    <svg
+      width="23"
+      height="23"
+      viewBox="0 0 20 20"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+      style={{cursor:"pointer", transition:"all 0.2s ease-in-out"}}
+    >
+      <rect
+        x="0"
+        y="0"
+        width="20"
+        height="20"
+        rx="10"
+  className="group-hover:fill-[#204285]"
+        fill="none"
+         style={{cursor:"pointer", transition:"all 0.2s ease-in-out"}}
+      ></rect>
+      <path
+        d="M12.5 18.3337V15.0003C12.6159 13.9564 12.3166 12.9088 11.6667 12.0837C14.1667 12.0837 16.6667 10.417 16.6667 7.50033C16.7333 6.45866 16.4417 5.43366 15.8333 4.58366C16.0667 3.62533 16.0667 2.62533 15.8333 1.66699C15.8333 1.66699 15 1.66699 13.3333 2.91699C11.1333 2.50033 8.86666 2.50033 6.66666 2.91699C5 1.66699 4.16666 1.66699 4.16666 1.66699C3.91666 2.62533 3.91666 3.62533 4.16666 4.58366C3.55989 5.43023 3.26539 6.46098 3.33333 7.50033C3.33333 10.417 5.83333 12.0837 8.33333 12.0837C8.00833 12.492 7.76666 12.9587 7.625 13.4587C7.48333 13.9587 7.44166 14.4837 7.5 15.0003V18.3337"
+        stroke="#204285"
+        className="group-hover:stroke-white"
+        strokeWidth="1.66667"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+       style={{cursor:"pointer", transition:"all 0.2s ease-in-out"}}
+      ></path>
+      <path
+        d="M7.5 14.9997C3.74166 16.6663 3.33333 13.333 1.66666 13.333"
+        stroke="#204285"
+        className="group-hover:stroke-white"
+        strokeWidth="1.66667"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+       style={{cursor:"pointer", transition:"all 0.2s ease-in-out"}}
+      ></path>
+    </svg>
+  );
+}

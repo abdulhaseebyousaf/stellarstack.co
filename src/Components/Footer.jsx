@@ -1,11 +1,11 @@
 import React from 'react'
 import Logo from '../assets/logo/Logo.svg'
-import Image2 from '../assets/logo/logos/Github.svg'
-import Image3 from '../assets/logo/logos/Insta.svg'
 import FooterProps from './FooterProps'
 import { Link } from 'react-router-dom'
 import LinkedIn from '../icons/LinkedIn'
 import Facebook from '../icons/Facebook'
+import Github from '../icons/Github'
+import Instagram from '../icons/Instagram'
 
 function Footer() {
   return (
@@ -18,7 +18,7 @@ function Footer() {
             </Link>
         <div className='pl-2'>
           <p className='pt-1  text-[#204285]'>Imagine, Innovate, Implement.</p>
-          <div className='pr-2 pt-2.5 flex gap-4 text-blue-500 text-lg'>
+          <div className='pr-2 pt-2.5 flex gap-4 text-blue-500 text-lg items-center'>
             <Link  to="https://www.linkedin.com/company/stellar-stack/posts/?feedView=all" className='group'>
             <LinkedIn/>
             </Link>
@@ -26,10 +26,10 @@ function Footer() {
             <Facebook/>
             </Link>
             <Link to="https://github.com/StellarStack" className='group'>
-            <img  src={Image2} />
+           <Github/>
             </Link>
             <Link to="https://www.instagram.com/p/DLFEWJ5I6bd/?igsh=MWZvbHBxbThldWVrOQ%3D%3D" className='group'>
-            <img  src={Image3} />
+            <Instagram/>
           </Link>
           </div>
         </div>
