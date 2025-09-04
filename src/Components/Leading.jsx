@@ -24,7 +24,7 @@ export default function Leading() {
             <div className='max-w-[1110px] mx-auto px-6 pt-24 lg:pt-32' >
                 <div className='flex justify-between flex-wrap gap-6' >
 {photos.map(photo => (
-        <img key={photo.id} src={photo.src} alt={photo.alt}  />
+        <img className='hover:scale-105 duration-500' key={photo.id} src={photo.src} alt={photo.alt}  />
       ))}
                 </div>
         </div>

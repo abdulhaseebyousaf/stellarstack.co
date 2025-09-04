@@ -42,17 +42,17 @@ third={'Our Technologies'}
 forth={'Case Studies'}
 />
 <ul className='space-y-[18px] list-none'>
-<li className='font-bold  mb-[18px]'>
+<li className='font-bold   mb-[18px]'>
 <h6>Services</h6>  
 </li>
 <li className='cursor-pointer mb-[18px]'>
-<Link to="/our-services">Our Services</Link>  
+<Link className='hover:text-blue-600  duration-200 transition-all' to="/our-services">Our Services</Link>  
 </li>
 <li className='cursor-pointer mb-[18px]'>
-<Link to="/our-staff">Staff Augmentation</Link>  
+<Link className='hover:text-blue-600  duration-200 transition-all' to="/our-staff">Staff Augmentation</Link>  
 </li>
 <li className='cursor-pointer mb-[18px]'>
-<Link to="/how-we-hire">How We Hire</Link>  
+<Link className='hover:text-blue-600  duration-200 transition-all' to="/how-we-hire">How We Hire</Link>  
 </li>
 
 </ul>
@@ -62,9 +62,9 @@ forth={'Case Studies'}
 <p className='text-xs text-[#204285] leading-5'>©2025 – All Rights Reserved by StellarStack Ltd <br></br>  Kingsway #2600-4720, Burnaby, BC V5H 4N2, Canada </p>
 <div className='max-[550px]:hidden'>
   <p className='text-xs text-[#204285] leading-5'>
-    <Link to="/privacy-Policy">Privacy Policy </Link>
+    <Link className='hover:text-blue-600  duration-200 transition-all' to="/privacy-Policy">Privacy Policy </Link>
     | 
-    <Link to="/termsandConditions">Terms & Conditions</Link>
+    <Link className='hover:text-blue-600  duration-200 transition-all' to="/termsandConditions">Terms & Conditions</Link>
   </p>
   <p className='text-xs text-[#204285] leading-5'>+1 778 227 0782</p>
 </div>

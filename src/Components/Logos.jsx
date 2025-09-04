@@ -1,4 +1,3 @@
-import React from 'react'
 import Logo1 from '../assets/logo/logos/Html.svg'
 import Logo2 from '../assets/logo/logos/Css.svg'
 import Logo3 from '../assets/logo/logos/tailwind.svg'
@@ -39,7 +38,22 @@ import Logo37 from '../assets/logo/logos/Jira.490607ff.svg'
 import Logo38 from '../assets/logo/logos/Asana.d8c85970.svg'
 import Logo39 from '../assets/logo/logos/GitHub.a0253469.svg'
 import Logo40 from '../assets/logo/logos/GitLab.svg'
+  import React, { useEffect, useRef } from 'react';
 export default function Logos() {
+    const divRef = useRef(null);
+        useEffect(() => {
+            if (window.ScrollReveal) {
+                const sr = window.ScrollReveal();
+                sr.reveal(divRef.current, {
+                    delay: 200,
+                    distance: '50px',
+                    origin: 'bottom',
+                    reset:"true",
+                });
+            } else {
+                console.warn("ScrollReveal not found. Ensure it's loaded globally.");
+            }
+        }, []);
     const data = [
         {
             src: Logo1,
@@ -204,11 +218,11 @@ export default function Logos() {
     ]
   return (
     <>
-      <div className=' bg-[#E4E5DA]' >
+      <div  className=' bg-[#E4E5DA]' >
         <div className='max-w-[1810px] mx-auto w-full  lg:py-26 sm:py-20 py-16 px-6' >
-            <div  className='sm:grid lg:grid-cols-5 sm:grid-cols-4 grid-cols-3 md:gap-y-24 sm:gap-y-20 gap-y-16 sm:gap-x-[10%] gap-x-[2%] flex flex-wrap justify-between'>
-          {data.map((items, index) => (
-                <div key={index} className='flex flex-col justify-center items-center sm:w-auto w-[100px]'>
+            <div  ref={divRef} className='sm:grid lg:grid-cols-5 sm:grid-cols-4 grid-cols-3 md:gap-y-24 sm:gap-y-20 gap-y-16 sm:gap-x-[10%] gap-x-[2%] flex flex-wrap justify-between'>
+          {data.map((items,index) => (
+                <div key={index}  className='flex flex-col justify-center hover:scale-105 hover:duration-500 items-center sm:w-auto w-[100px]'>
 <img className='md:w-[120px] sm:w-[100px] w-[80px] h-auto' src={items.src} alt="" />
 <p className='font-medium text-[#231F20] md:text-xl text-lg mt-1 text-center'>{items.text}</p>
                 </div>

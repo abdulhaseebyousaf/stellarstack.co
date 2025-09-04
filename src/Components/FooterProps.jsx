@@ -9,17 +9,17 @@ function FooterProps({text, second, third, forth}) {
 {text}
 </li>
 <li className='mb-[18px]'>
-<Link to="/about-us">
+<Link className='hover:text-blue-600  duration-200 transition-all' to="/about-us">
 {second}
 </Link>
 </li>
 <li className='mb-[18px]'>
-<Link to="/our-technologies">
+<Link className='hover:text-blue-600  duration-200 transition-all' to="/our-technologies">
 {third}
 </Link>
 </li>
 <li >
-<Link to="/caseStudy">
+<Link className='hover:text-blue-600  duration-200 transition-all' to="/caseStudy">
 {forth}
 </Link>
 </li>

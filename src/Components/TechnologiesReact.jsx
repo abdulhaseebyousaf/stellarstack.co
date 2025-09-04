@@ -47,13 +47,13 @@ function TechnologiesReact() {
 
 {data.map((items, index) => (
 <div key={index}
-     className='relative 2xl:w-[360px] md:w-[320px] w-full sm:min-h-[287px] min-h-[250px]' >
-<div className=' absolute 2xl:-top-16 md:-top-14 -top-12 w-full flex justify-center left-1/2 -translate-x-1/2 z-20 ' >
+     className=' relative 2xl:w-[360px] md:w-[320px]  w-full sm:min-h-[287px] min-h-[250px]' >
+<div className='absolute 2xl:-top-16 md:-top-14 -top-12 w-full flex justify-center left-1/2 -translate-x-1/2 z-20 ' >
 <div   className={` rounded-full drop-shadow-[0px_-2px_4px_#b7bbc0] flex justify-center items-center 2xl:w-[118px] md:w-[100px] md:h-[100px] 2xl:h-[118px] w-[90px] h-[90px] ${items.backgroundColor}`} >
 <img className='2xl:w-auto 2xl:h-auto w-[36px]' src={items.src} alt="" />
 </div>
 </div>
-<div className='bg-[#CDD4DF]  rounded-[15px] px-5 2xl:h-[228px] h-[190px] flex justify-center items-center text-center drop-shadow-md shadow-lg shadow-[#A0A0A01F]'>
+<div className='bg-[#CDD4DF] hover:scale-105 hover:bg-gradient-to-b from-[#3a66be96] to-[#4a97d2b2] duration-500 rounded-[15px] px-5 2xl:h-[228px] h-[190px] flex justify-center items-center text-center drop-shadow-md shadow-lg shadow-[#A0A0A01F]'>
     <p className='text-[#204285] font-bold 2xl:text-[50px] xl:text-[40px] lg:text-[37px] md:text-[32px] text-[28px] lg:leading-14 leading-none pt-8 ' >{items.text}</p>
 </div>
 </div>

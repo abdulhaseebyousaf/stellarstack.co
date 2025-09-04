@@ -59,14 +59,14 @@ const IPLshirts = [
       {IPLshirts.map((shirt, index) => (
         <div
           key={index}
-          className='bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300'
+          className='mainbox bg-white p-6   hover:scale-[1.02] transition-transform duration-500 ease-out hover:bg-gradient-to-r from-[#3a66be96] to-[#4a97d2b2]  rounded-lg shadow-lg hover:shadow-xl'
         >
-                  <div className='flex justify-center items-center size-[72px] rounded-full bg-[#204285]'>
+                  <div className='flex justify-center items-center  size-[72px] rounded-full bg-[#204285]'>
             <img className='h-10 w-10' src={shirt.src} alt="web dev" />
     </div>
           <h3 className='mt-6 mb-2.5 text-2xl font-semibold text-[#020817]'>{shirt.name}</h3>
-          <p className='min-h-[72px] text-base text-[#4B5563] font-normal'>{shirt.text}</p>
-          <Link to='/our-services' className='flex items-center gap-2 text-[#204285] rounded-lg border border-[#FFFFFF] mt-3.5 group'>
+          <p className='name min-h-[72px] text-base text-[#4B5563]  font-normal'>{shirt.text}</p>
+          <Link to='/our-services' className='flex items-center gap-2 text-[#204285] rounded-lg  mt-3.5 group'>
                <div className='text-sm font-medium'>{shirt.brand}</div>
             <div className='transition-transform group-hover:translate-x-1' >
                     <svg width="6" height="10" viewBox="0 0 6 10" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M1 9L5 5L1 1" stroke="#204285"></path></svg>

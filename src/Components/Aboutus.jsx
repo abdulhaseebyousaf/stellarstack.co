@@ -4,7 +4,9 @@ import Logo1 from '../assets/logo/logos/Foundation-logosvg.svg'
 import Logo2 from '../assets/logo/logos/Whatwe.svg'
 import Logo3 from '../assets/logo/logos/Core.svg'
 import Logo4 from '../assets/logo/logos/Driven.svg'
+import { gsap } from 'gsap';
 function Aboutus() {
+
     const data = [
         { 
       src: Logo1,      
@@ -41,18 +43,19 @@ text: 'What sets us apart is our resilience, flexibility, and curiosity. Our tea
     </div>
 </div>
 <div className='relative'>
-    <img className='w-full sm:h-[756px] h-[800px] object-cover rounded-t-[20px] object-center' src={Image} alt="" />
-<div className='absolute lg:-top-36 sm:-top-48 -top-[40%] left-1/2 -translate-x-1/2 flex flex-col text-center w-full justify-center'>
+    <img className='w-full sm:h-[766px] h-[860px] object-cover rounded-t-[20px] object-center' src={Image} alt="" />
+<div className='absolute lg:-top-36 sm:-top-48 -top-[38%] left-1/2 -translate-x-1/2 flex flex-col text-center w-full justify-center'>
 <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 w-fit mx-auto gap-x-8 max-xl:gap-y-10 max-sm:gap-y-9 max-md:px-6'>
     {data.map((shirt, index)=> (
+    
 <div key={index} 
-    className='md:w-[277px] md:min-h-[257px] max-w-[650px] bg-white rounded-[12px] relative shadow-md flex flex-col items-center text-center px-5 pb-4 sm:pt-8 pt-6'>
+    className='mainbox md:w-[277px] md:min-h-[257px] max-w-[650px] bg-white rounded-[12px] relative shadow-md flex flex-col items-center text-center px-5 pb-4 sm:pt-8 pt-6 hover:scale-105 duration-500 transition-all  hover:bg-gradient-to-t from-[#3a66be96] to-[#4a97d2b2]'>
        <div className='sm:w-[60px] sm:h-[60px] w-[50px] h-[50px] rounded-full bg-[#204285] absolute flex items-center justify-center -top-7 z-10' >
 <img className='sm:w-6 sm:h-6 w-5 h-5' src={shirt.src} alt="" />
        </div>
         <div>
 <p className='text-[#204285] font-semibold text-2xl'>{shirt.name}</p>
-<p className='mt-1 sm:mt-2 text-[13px] text-[#231F20] leading-5 '>{shirt.text}</p>
+<p className='name mt-1 sm:mt-2 text-[13px] text-[#231F20] leading-5 '>{shirt.text}</p>
     </div>
         </div>
     ))

@@ -6,7 +6,7 @@ const HeaderProp = ({ About, our, Staff, How, service, Technologies }) => {
 
   return (
     <>
-      <Link to="/about-us">{About}</Link>
+      <Link className="hover:text-blue-600 transition-all duration-150" to="/about-us">{About}</Link>
 
       <div
         onMouseEnter={() => setIsHoverd(true)}
@@ -15,27 +15,27 @@ const HeaderProp = ({ About, our, Staff, How, service, Technologies }) => {
       >
         <button
           type="button"
-          className="text-base font-normal text-[#204285] hover:text-blue-600 transition-colors duration-200"
+          className="text-base font-normal  text-[#204285] hover:text-blue-600 transition-colors duration-200"
         >
           {service}
         </button>
 
         {isHoverd && (
           <div className="absolute top-full left-0 w-60 z-50 flex flex-col bg-white shadow-md shadow-black/15 rounded-sm">
-            <Link to="/our-services" className="hover:bg-gray-100 px-4 py-3 transition-colors duration-200">
+            <Link to="/our-services" className="hover:bg-gray-100 hover:text-blue-600 px-4 py-3 transition-colors duration-200">
               {our}
             </Link>
-            <Link to="/our-staff" className="hover:bg-gray-100 px-4 py-3 transition-colors duration-200">
+            <Link to="/our-staff" className="hover:bg-gray-100 px-4 hover:text-blue-600 py-3 transition-colors duration-200">
               {Staff}
             </Link>
-            <Link to="/how-we-hire" className="hover:bg-gray-100 px-4 py-3 transition-colors duration-200">
+            <Link to="/how-we-hire" className="hover:bg-gray-100 hover:text-blue-600 px-4 py-3 transition-colors duration-200">
               {How}
             </Link>
           </div>
         )}
       </div>
 
-      <Link to="/our-technologies">{Technologies}</Link>
+      <Link className="hover:text-blue-600 transition-all duration-150" to="/our-technologies">{Technologies}</Link>
     </>
   );
 };

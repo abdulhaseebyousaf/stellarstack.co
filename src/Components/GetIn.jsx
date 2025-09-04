@@ -19,7 +19,7 @@ function GetIn() {
             <div className="py-8 space-y-5">
               <GetInProp
                 Image={Logo1}
-                text={"Locations:"}
+                text={"Location:"}
                 second={"San Francisco Bay Area, United States."}
                 third={"Kingsway #2600-4720, Burnaby, BC V5H 4N2, Canada."}
                 forth={"Islamabad, Pakistan."}

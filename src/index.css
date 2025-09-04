@@ -83,3 +83,16 @@ body {
     background: #204285!important;
 }
  
+.header.show nav {
+     transform: translateY(0);
+     transition: all 0.3s ease-in-out;
+     }
+.header.hide nav {
+     transform: translateY(-100%);
+     transition: all 0.3s ease-in-out;
+     }
+.mainbox:hover .name {
+    color:#0d2056;
+    font-weight: 450;
+}
+

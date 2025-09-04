@@ -42,7 +42,7 @@ function KeyFeature() {
     <div className='flex flex-col justify-center bg-[#204285] rounded-lg px-8 lg:px-14 py-8 z-10'>
      <p className='pb-6 lg:pb-10 xl:pb-16 text-xl xl:text-2xl 2xl:text-[32px] font-medium text-white'>Agile Web Development, no waste, continuous improvement, collaboration, and respect for people. <br></br> <br></br>  Whether you need a new website, a web portal to help your employees, or an app to automate processes, our developers have the expertise and experience to build it quickly and keep it aligned with your vision.</p>
      <a href="https://calendly.com/amishmaqbool/project-discussion?month=2025-08" target="_blank" rel="noopener noreferrer">
-     <button className='px-6 py-2 text-xl lg:text-2xl font-medium rounded-md w-max bg-white cursor-pointer'>Get in Touch</button>
+     <button className='px-6 py-2 text-xl lg:text-2xl hover:scale-105 duration-500 font-medium rounded-md w-max bg-white cursor-pointer'>Get in Touch</button>
      </a>
     </div>
     <div className='flex-shrink-0 md:w-[320px] lg:w-[450px] 2xl:w-[559px] max-md:-mb-14 md:-ml-14 pl-6 md:pl-20 2xl:pl-32 pt-10 2xl:pt-14 pb-16 md:pb-4 pr-4 max-md:border-x-4 max-md:border-t-4 md:border-y-4 md:border-r-4 rounded-[56px] border-[#231F20] z-0' >
