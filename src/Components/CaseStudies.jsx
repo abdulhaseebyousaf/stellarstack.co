@@ -40,7 +40,7 @@ function CaseStudies() {
                 )}
 
                 {item.text2 && (
-                  <Link href="" className="text-lg md:text-xl text-[#204285] font-medium inline-flex items-center group">
+                  <Link to="/caseStudy" className="text-lg md:text-xl text-[#204285] font-medium inline-flex items-center group">
                     {item.text2}
                      <span className='mt-0.5 ml-2 transition-transform group-hover:translate-x-1'>
                        <img src={Case} alt="" />
@@ -66,7 +66,7 @@ function CaseStudies() {
                   </p>
                 )}
                 {item.text2 && (
-                  <Link href="" className="text-lg md:text-xl text-[#204285] font-medium inline-flex items-center group">
+                  <Link to="caseStudy" className="text-lg md:text-xl text-[#204285] font-medium inline-flex items-center group">
                     {item.text2}
                      <span className='mt-0.5 ml-2 transition-transform group-hover:translate-x-1'>
                        <img src={Case} alt="" />

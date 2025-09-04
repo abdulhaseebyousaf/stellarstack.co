@@ -16,7 +16,7 @@ function GetIn() {
         <div className="max-w-[1400px] mx-auto flex lg:flex-row flex-col max-lg:items-center max-lg:justify-center gap-8">
           <div className="w-full sm:w-[70%] lg:w-[40%] bg-[#204285] text-white rounded-[20px] py-8 sm:py-12 px-6 sm:px-8 shadow-md">
             <h3 className="text-3xl font-medium mb-4">Contact Information</h3>
-            <div className="py-8 space-y-5">
+            <div className="py-5 space-y-5">
               <GetInProp
                 Image={Logo1}
                 text={"Location:"}

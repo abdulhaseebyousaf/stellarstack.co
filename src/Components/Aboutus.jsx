@@ -11,7 +11,9 @@ function Aboutus() {
         { 
       src: Logo1,      
 name: 'Our Foundation',
-text: 'Established in 2019, Stellar Stack was built with the vision of redefining IT staff augmentation and digital innovation. We began with a tight-knit team of talented engineers from Pakistan and Canada, aiming to deliver meaningful tech solutions with purpose and precision.'
+strong:'Established in 2019',
+text: ' Stellar Stack was built with the vision of redefining IT staff augmentation and digital innovation. We began with a tight-knit team of talented engineers from  aiming to deliver meaningful tech solutions with purpose and precision.',
+second:"Pakistan and Canada,",
          },
         { 
       src: Logo2,      
@@ -55,7 +57,7 @@ text: 'What sets us apart is our resilience, flexibility, and curiosity. Our tea
        </div>
         <div>
 <p className='text-[#204285] font-semibold text-2xl'>{shirt.name}</p>
-<p className='name mt-1 sm:mt-2 text-[13px] text-[#231F20] leading-5 '>{shirt.text}</p>
+<p className='name mt-1 sm:mt-2 text-[13px] text-[#231F20] leading-5 '> <strong>{shirt.strong}</strong>{shirt.text}<strong>{shirt.second}</strong> </p>
     </div>
         </div>
     ))

@@ -67,12 +67,13 @@ function Mobile() {
             <SwiperSlide key={index}>
               <div className="max-w-[1810px] mx-auto px-6 md:flex items-center gap-10 lg:gap-20 justify-between">
               {item.image &&
-                <div className="max-sm:h-[200px] md:w-[40%] w-[150px] sm:w-[350px]  lg:w-[300px] 2xl:w-[440px] mx-auto">
-                  <img src={item.image} alt="" />
+                <div className="  md:w-[40%] max-sm:w-[40%] w-[150px] sm:w-[350px] max-md:w-[250px] lg:w-[300px] 2xl:w-[440px] mx-auto">
+                  <img className="" src={item.image} alt="" />
                 </div>
+                // ye ho gya ha 
                 }
                 {item.secondsImage &&
-                  <div className="max-sm:h-[200px] md:w-[40%] max-sm:mx-auto max-sm:w-[250px] max-md:w-[550px]">
+                  <div className="max-sm:h-[200px] md:w-[40%] max-md:mx-auto max-sm:w-[250px] max-md:w-[550px]">
                   <img src={item.secondsImage} alt="" />
                 </div>
                 }
@@ -102,7 +103,7 @@ function Mobile() {
             </SwiperSlide>
           ))}
         </Swiper>
-        <div className="flex justify-center gap-4 max-sm:mt-6 xl:mt-0 2xl:mt-8">
+        <div className="flex justify-center gap-4 max-[1029px]:mt-6 max-sm:mt-6 xl:mt-0 2xl:mt-8">
           <button
             onClick={() => swiperRef.current?.slidePrev()}
             disabled={activeIndex === 0}

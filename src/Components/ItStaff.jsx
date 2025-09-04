@@ -4,9 +4,9 @@ import SecondImage from "../assets/logo/pictures/MapImage.webp";
 export default function ItStaff() {
   return (
     <div className="bg-[#e3e5da]">
-      <div className="max-w-[1810px] mx-auto grid md:grid-cols-2 gap-6 md:place-items-center px-6 py-16 md:py-24 2xl:py-36">
+      <div className="max-w-[1810px] mx-auto grid max-md:flex max-md:flex-col md:grid-cols-2 gap-6 md:place-items-center px-6 py-16 md:py-24 2xl:py-36">
         <div className="max-md:order-2">
-          <h1 className="text-5xl lg:text-6xl 2xl:text-[80px] font-bold 2xl:leading-24 tracking-[-1.5px] text-[#204285]">
+          <h1 className="text-[45px] lg:text-6xl 2xl:text-[80px] font-bold 2xl:leading-24 tracking-[-1.5px] text-[#204285]">
             IT Staff Augmentation
           </h1>
           <p className="pt-6 pb-8 max-w-[710px] text-xl text-[#231F20]">

@@ -19,7 +19,7 @@ export default function TopThree() {
   return (
     <>
       <div className="pt-16 lg:pt-24 xl:pt-36 max-w-[1184px] mx-auto px-6">
-        <p className="text-lg font-semibold text-center text-[#204285]">
+        <p className="text-lg font-normal text-center text-[#204285]">
           THE TOP <span className="text-[32px]">3%</span>
         </p>
         <p className="max-w-[900px] mx-auto text-xl text-center text-[#204285]">
@@ -35,17 +35,17 @@ export default function TopThree() {
             />
           </div>
           <div className="mr-4 absolute top-[214px] sm:top-[200px] left-6 md:hidden">
-            <img src={Image} alt="error" />
+            <img className="w-[670px] h-[500px]" src={Image} alt="error" />
           </div>
           <div>
             {Data.map((item, index) => (
-              <div key={index} className="">
+              <div key={index}>
                 <div
                   className={`${
                     index === 1 ? "flex justify-end" : "flex items-center"
                   }`}
                 >
-                  <p className="flex items-center max-w-[600px] 2xl:max-w-[680px] min-h-[251px] md:min-h-52 2xl:min-h-[245px] max-md:px-7 pr-3 mb-20 sm:mb-16 md:mb-24 2xl:mb-36 text-base md:text-xl 2xl:text-2xl font-normal border-b rounded-[45px] text-white bg-[#204285] shadow-[0px_6px_0px_#000000] max-md:pr-14 max-[1180px]:pr-24 max-[1180px]:pl-8 md:pl-20">{item.Text}</p>
+                  <p className="flex items-center max-w-[600px] 2xl:max-w-[680px] min-h-[251px] md:min-h-52 2xl:min-h-[245px] max-md:px-7 pr-3 mb-20 sm:mb-16 md:mb-24 2xl:mb-36 text-base md:text-xl 2xl:text-2xl font-normal border-b rounded-[45px] text-white bg-[#204285] shadow-[0px_6px_0px_#000000] max-[1180px]:pl-24 pl-20">{item.Text}</p>
                 </div>
               </div>
             ))}
