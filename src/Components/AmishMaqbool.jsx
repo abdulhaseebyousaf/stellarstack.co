@@ -16,7 +16,7 @@ function AmishMaqbool() {
 </div>
 <div className='flex flex-col sm:gap-7 gap-5 lg:max-w-[770px] w-full' >
 <div>
-    <p className="text-lg text-[#204285] font-bold tracking-[1.8px]">LEADERSHIP</p>
+    <p className="text-lg text-[#204285] font-normal tracking-[1.8px]">LEADERSHIP</p>
     <h1 className="2xl:text-[64px] xl:leading-[70px] xl:text-6xl md:text-5xl text-4xl font-bold">Meet <span className="text-[#204285]">Our Founder</span></h1>
 </div>
 <div className='flex flex-col lg:gap-6 gap-5 lg:mt-4 xl:leading-[38px] 2xl:text-3xl lg:text-2.5xl sm:text-2xl text-xl text-[#231F20] font-normal'>

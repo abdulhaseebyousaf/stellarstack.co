@@ -20,7 +20,7 @@ function Footer() {
               <p className="pt-1  text-[#204285]">
                 Imagine, Innovate, Implement.
               </p>
-              <div className="pr-2 pt-2.5 flex gap-4 text-blue-500 text-lg items-center">
+              <div className="pr-2 pt-2.5 flex gap-4 text-blue-500 text-lg">
                 <Link
                   to="https://www.linkedin.com/company/stellar-stack/posts/?feedView=all"
                   className="group"
@@ -36,9 +36,9 @@ function Footer() {
                 <Link to="https://github.com/StellarStack" className="group">
                   <Github />
                 </Link>
-                <Link
+                <Link 
                   to="https://www.instagram.com/p/DLFEWJ5I6bd/?igsh=MWZvbHBxbThldWVrOQ%3D%3D"
-                  className="group"
+                  className="pt-0.5 group"
                 >
                   <Instagram />
                 </Link>
@@ -84,7 +84,7 @@ function Footer() {
           </div>
           <div class="pl-2 max-[550px]:block hidden">
             <p class="text-xs text-[#204285] leading-5">
-              <a href="/privacy-policy">Privacy Policy</a> |
+              <a href="/privacy-policy">Privacy Policy </a> |
               <a href="/terms-&amp;-conditions">Terms &amp; Conditions</a>
             </p>
             <a href="tel:+17782270782">
@@ -92,26 +92,15 @@ function Footer() {
             </a>
           </div>
         </div>
-        <div className="px-1 pt-3.5 flex max-[550px]:flex-col-reverse justify-between items-start border-t border-[#71717A] mt-8 sm:mt-14">
+        <div className="px-2 pt-3.5 flex max-[550px]:flex-col-reverse justify-between items-start border-t border-[#71717A] mt-8 sm:mt-14">
           <p className="text-xs text-[#204285] leading-5">
             ©2025 – All Rights Reserved by StellarStack Ltd <br></br> Kingsway
             #2600-4720, Burnaby, BC V5H 4N2, Canada
           </p>
           <div className="max-[550px]:hidden">
             <p className="text-xs text-[#204285] leading-5">
-              <Link
-                className="hover:text-blue-600  duration-200 transition-all"
-                to="/privacy-Policy"
-              >
-                Privacy Policy
-              </Link>
-              |
-              <Link
-                className="hover:text-blue-600  duration-200 transition-all"
-                to="/termsandConditions"
-              >
-                Terms & Conditions
-              </Link>
+                <Link to="/privacy-policy">Privacy Policy</Link> |
+                <Link to="/termsandconditions"> Terms &amp; Conditions</Link>
             </p>
             <p className="text-xs text-[#204285] leading-5">+1 778 227 0782</p>
           </div>

@@ -10,7 +10,7 @@ export default function HireLast() {
           </p>
           <h2 className="max-w-[840px] pt-1.5 text-5xl xl:text-[64px] font-bold px-6">
             <span className="text-[#204285]">Hire</span>
-            <span> Your New</span>
+            <span> your new</span>
           </h2>
           <p className="pt-8 pb-12">
             Get a free quote within the hour. Get ready to take your team to the

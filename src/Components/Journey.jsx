@@ -15,7 +15,7 @@ export default function Journey() {
             id:2,
             image:Image2,
             heading:"Next Step:",
-            Secondhaeding:"Kicking Off Your Plan!",
+            Secondhaeding:"Kicking Off Your Plan",
             description:"Once we have outlined and tailored our solutions, we move on to the next step: finding the perfect match! We put our sophisticated hiring methodology in motion and source up to three expert candidates within 48 hours only. In case you don't find the right fit for the position, we start over the process taking between 1-2 weeks.",
         },
         {

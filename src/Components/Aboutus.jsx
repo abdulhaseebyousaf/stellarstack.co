@@ -11,9 +11,8 @@ function Aboutus() {
         { 
       src: Logo1,      
 name: 'Our Foundation',
-strong:'Established in 2019',
-text: ' Stellar Stack was built with the vision of redefining IT staff augmentation and digital innovation. We began with a tight-knit team of talented engineers from  aiming to deliver meaningful tech solutions with purpose and precision.',
-second:"Pakistan and Canada,",
+strong:'',
+text: ' Established in 2019, Stellar Stack was built with the vision of redefining IT staff augmentation and digital innovation. We began with a tight-knit team of talented engineers from  Pakistan and Canada, aiming to deliver meaningful tech solutions with purpose and precision.',
          },
         { 
       src: Logo2,      

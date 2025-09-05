@@ -10,7 +10,7 @@ export default function Technologies() {
 <p className="text-[#231F20] text-[20px] font-normal leading-6">At StellarStack, we aim to be ahead of the game. We work with tech profiles that master the avant-garde technologies that currently shape and enhance the digital acceleration process</p>
 </div>
 <div>
-    <img src={OfficeTable} alt="" />
+    <img className='w-[885px]' src={OfficeTable} alt="" />
 </div>
 </div>
     </div>

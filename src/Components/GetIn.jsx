@@ -8,7 +8,7 @@ function GetIn() {
     <>
       <section className="bg-[#e3e5da] py-16 lg:py-24 px-6">
         <div className="text-center mb-12">
-          <p className="text-lg text-[#204285] font-bold uppercase">Get in touch</p>
+          <p className="text-lg text-[#204285] font-normal">Get in touch</p>
           <h2 className="text-2xl md:text-3xl font-medium text-[#020817] mt-2">
             Ready to discuss your project? Contact us today for a consultation
           </h2>
@@ -16,28 +16,28 @@ function GetIn() {
         <div className="max-w-[1400px] mx-auto flex lg:flex-row flex-col max-lg:items-center max-lg:justify-center gap-8">
           <div className="w-full sm:w-[70%] lg:w-[40%] bg-[#204285] text-white rounded-[20px] py-8 sm:py-12 px-6 sm:px-8 shadow-md">
             <h3 className="text-3xl font-medium mb-4">Contact Information</h3>
-            <div className="py-5 space-y-5">
+            <div className="pt-8 pb-[7px] space-y-5">
               <GetInProp
                 Image={Logo1}
-                text={"Location:"}
+                text={"Location "}
                 second={"San Francisco Bay Area, United States."}
                 third={"Kingsway #2600-4720, Burnaby, BC V5H 4N2, Canada."}
                 forth={"Islamabad, Pakistan."}
               />
               <GetInProp
                 Image={Logo2}
-                text={"Emails:"}
+                text={"Email"}
                 second={"info@stellarstack.co"}
                 third={"support@stellarstack.co"}
               />
               <GetInProp
                 Image={Logo3}
-                text={"Phone:"}
+                text={"Phone"}
                 second={"+1 (604) 555-1234"}
               />
             </div>
             <div>
-              <p className="text-lg font-semibold">Office Hours:</p>
+              <p className="text-lg font-semibold">Office Hours</p>
               <p className="text-base">Monday - Friday, 9am – 6pm PST</p>
               <p className="text-base">Remote support available 24/7</p>
             </div>

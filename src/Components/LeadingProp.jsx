@@ -26,9 +26,9 @@ export default function LeadingProp({
 
   return (
     <>
-      <h5 className="pt-6 text-2xl font-semibold text-center">
+      <h5 className="pt-6 text-2xl font-semibold  text-center">
         {text}
-        <Link className="hover:underline  hover:text-[#204285]" to="/our-technologies">{secondtext}</Link>
+        <Link className="underline w-fit" to="/our-technologies">{secondtext}</Link>
       </h5>
 
       <div className="max-w-[1704px] mx-auto px-6 pb-16 md:pb-24 2xl:pb-32 lg:pt-16">

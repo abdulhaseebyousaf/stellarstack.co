@@ -14,9 +14,9 @@ function StellarStackCulture() {
             <p className="2xl:text-[32px] 2xl:leading-10 xl:text-2.5xl xl:leading-9 lg:text-2xl sm:text-xl text-lg text-[#71717A] font-normal">
               Working at StellarStack is a fulfilling experience. We
               foster&nbsp;collaboration among peers and respect everyone’s
-              opinion,&nbsp;creating an inviting and creative work environment.
-              <span className="font-semibold">
-                As team members feel appreciated and valued, StellarStack is the
+              opinion,&nbsp;creating an inviting and creative work environment 
+               <span className="font-semibold">
+                   .  As team members feel appreciated and valued, StellarStack is the
                 company everyone wants to work with.
               </span>
               &nbsp;&nbsp;We are always one step ahead of the game, ready to

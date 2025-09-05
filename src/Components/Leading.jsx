@@ -29,7 +29,7 @@ export default function Leading() {
                 </div>
         </div>
       <LeadingProp
-      text={'and other tailor made solutions!'}
+      text={'and other tailor made solutions! '}
       secondtext={'See More'}
       thirdtext={'Leading with'}
       forthtext={'Vision'}

@@ -15,7 +15,7 @@ export default function KeyBenifit() {
         <div className="absolute left-1/2 transform -translate-x-1/2 h-full w-0.5 bg-black"></div>
         <div className="relative flex items-center w-full mb-10 sm:mb-16 2xl:mb-32 justify-start">
           <div className="w-1/2 px-4">
-            <div className="max-[530px]:py-4 flex items-center text-base xl:text-xl bg-[#204285] text-white px-6 min-h-[106px] rounded-xl shadow-md  text-right">
+            <div className="max-[530px]:py-4 flex items-center text-base xl:text-xl bg-[#204285] text-white px-6 min-h-[106px] rounded-xl shadow-md justify-end text-right">
               Fast hiring process.
             </div>
           </div>
@@ -31,7 +31,7 @@ export default function KeyBenifit() {
         </div>
         <div className="relative flex items-center w-full mb-10 sm:mb-16 2xl:mb-32 justify-start">
           <div className="w-1/2 px-4">
-            <div className="max-[530px]:py-4 flex items-center text-base xl:text-xl bg-[#204285] text-white px-6 min-h-[106px] rounded-xl shadow-md  text-right">
+            <div className="max-[530px]:py-4 flex items-center text-base xl:text-xl bg-[#204285] text-white px-6 min-h-[106px] rounded-xl shadow-md justify-end text-right">
               An unbeatable cost/quality ratio.
             </div>
           </div>

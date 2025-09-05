@@ -37,12 +37,12 @@ const Header = () => {
   return (
     <div className={`header ${showHeader ? 'show' : 'hide'}`}>
       <nav className='bg-[#F9FAFB] fixed w-full top-0 right-0 z-50 shadow-md transition-transform duration-300 will-change-transform'>
-        <div className='max-w-[1810px] mx-auto w-full px-4 py-1 flex justify-between items-center z-50'>
+        <div className='max-w-[1810px] mx-auto w-full px-4 py-[3.9px] flex justify-between items-center z-50'>
           <Link to="/">
             <img src={Logo} alt="error" />
           </Link>
 
-          <div className='gap-16 hidden items-center md:flex'>
+          <div className='gap-16 hidden items-center  md:flex'>
             <div className='flex gap-6 text-base font-normal text-[#204285] items-center relative'>
               <HeaderProp 
                 About='About Us'
@@ -57,7 +57,7 @@ const Header = () => {
             <Link to="/">
               <button
                 type="button"
-                className='flex items-center gap-2 rounded-md text-white bg-[#204285] hover:bg-[#163369] hover:shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer w-full lg:w-max text-sm font-medium px-3 py-1.5'
+                className='flex items-center mr-2 gap-2 rounded-md text-white bg-[#204285] hover:bg-[#163369] hover:shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer w-full lg:w-max text-sm font-medium px-3 py-1.5'
               >
                 Contact Us
               </button>

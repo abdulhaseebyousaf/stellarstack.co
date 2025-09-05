@@ -88,13 +88,12 @@ export default function StaffAnimationns() {
       <div className="max-w-[1810px] mx-auto px-6 py-16 lg:py-24 2xl:py-32">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:place-items-center">
           {/* Left column */}
-          <div className="flex items-start gap-5 w-full">
+          <div className="flex items-start gap-5 ">
             <div className="flex flex-col w-full relative">
               {Data.map((item, index) => (
                 <button
                   key={index}
                   onClick={() => {
-                    // click: restart sequence from this item
                     if (timerRef.current) clearTimeout(timerRef.current);
                     barCtrls.stop();
                     contentCtrls.stop();
@@ -106,14 +105,13 @@ export default function StaffAnimationns() {
                 >
                   {/* grey track */}
                   <span className="absolute left-0 top-0 bottom-0 w-1 bg-[#C9C9C9] z-0 rounded-full" />
-                  {/* blue fill (animates inside, no layout jump) */}
                   <motion.span
                     className={`absolute left-0 top-0 w-1 h-full ${barColor(
                       index
                     )} z-10 rounded-full`}
                     style={{ transformOrigin: "top" }}
-                    initial={{ scaleY: 0 }}
-                    animate={index === active ? barCtrls : { scaleY: 0 }}
+                    initial={{ scaleY: 0,opacity:1 }}
+                    animate={index === active ? barCtrls : { scaleY: 0, opacity:1 }}
                   />
                   <span className="relative z-20">{item.text}</span>
                 </button>
@@ -122,24 +120,22 @@ export default function StaffAnimationns() {
           </div>
 
           {/* Right column */}
-          <div className="relative w-full h-full min-h-[420px] rounded-2xl overflow-hidden">
+          <div className="relative w-full h-full min-h-[400px] rounded-2xl overflow-hidden">
             <AnimatePresence mode="wait">
               <motion.div
                 key={active}
-                initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                exit={{ opacity: 0 }}
-                transition={{ duration: 0.25 }}
+                transition={{ duration: 0 }}
                 className="absolute inset-0"
               >
                 {/* Background image */}
                 <motion.div
                   className="absolute inset-0 bg-cover bg-center rounded-2xl overflow-hidden"
-                  initial={{ scale: 1.03, opacity: 0 }}
+                  initial={{ scale: 0.0,}}
                   animate={{
                     scale: 1,
                     opacity: 1,
-                    transition: { duration: 0.45, ease: "easeOut", delay: 0.05 },
+                    transition: { duration: 0, ease: "easeOut", delay: 0,},
                   }}
                 >
                   <img
@@ -164,7 +160,7 @@ export default function StaffAnimationns() {
                   <h3 className="text-2xl md:text-3xl font-semibold">
                     {DataImages[active]?.secondtext}
                   </h3>
-                  <p className="text-base md:text-lg font-normal mt-1">
+                  <p className="text-base md:text-lg font-normal ">
                     {DataImages[active]?.description}
                   </p>
                 </motion.div>

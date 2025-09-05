@@ -6,18 +6,18 @@ function ValuesMission() {
   const data = [
     {
     src: Logo1,
-    name:'Relentless Pursuit of Innovatio',
-    text: `Relentless Pursuit of Innovation isn't just our motto  it's our mindset. We push boundaries, embrace new technologies, and deliver impactful, cutting-edge solutions that shape the future.`,
+    name:'Relentless Pursuit of Innovation',
+    text: `Relentless Pursuit of Innovation isn't just our motto — it's our mindset. We push boundaries, embrace new technologies, and deliver impactful, cutting-edge solutions that shape the future.`,
   },
     {
     src: Logo2,
     name:'Top-shelf Quality',
-    text: `At StellarStack, we deliver top quality solutions through innovation, precision, and continuous improvement. Our expert team is committed to exceeding expectations and driving client success.`,
+    text: `At StellarStack, we deliver top-quality solutions through innovation, precision, and continuous improvement. Our expert team is committed to exceeding expectations and driving client success.`,
   },
     {
     src: Logo3,
     name:'Exceptional Customer Focus',
-    text: `At StellarStack, we prioritize exceptional customer focus through personalized service, clear communication, and unwavering support going above and beyond to build lasting partnerships.`,
+    text: `At StellarStack, we prioritize exceptional customer focus through personalized service, clear communication, and unwavering support—going above and beyond to build lasting partnerships.`,
   },
 ]
     return (
@@ -26,7 +26,7 @@ function ValuesMission() {
         <div className='max-w-[1368px] h-auto flex flex-col justify-between md:px-10 px-6 xl:gap-0 gap-10'>
             <div className='text-center flex flex-col gap-2'>
                 <h1 className="2xl:text-[64px] xl:leading-[70px] xl:text-6xl md:text-5xl text-4xl font-bold text-[#204285] uppercase">Values, Mission, Vision</h1>
-                <p className="text-[32px] leading-9 font-medium  italic text-[#231F20] ">Manouvering On Sky.</p>
+                <p className="text-[32px] leading-9 font-medium text-[#231F20] ">Manouvering on sky.</p>
                 <p className="2xl:text-[36px] xl:text-3xl xl:leading-[44px] lg:text-3xl sm:text-2xl text-xl !font-normal text-[#231F20] mt-6">More than just a slogan, this is our driving principle that guides everything that we do. We have made it our overriding mission to provide superior services and solutions that solve our customer’s needs.</p>
             </div>
             <div className='mt-8 flex flex-col items-center gap-16'>

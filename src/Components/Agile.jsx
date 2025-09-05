@@ -2,6 +2,11 @@ import React from 'react'
 import Tick from '../assets/logo/logos/Tick.svg'
 import Logo1 from '../assets/logo/logos/SearchIcon.svg'
 import Image from '../assets/logo/pictures/Agile.webp'
+import Document from '../assets/logo/logos/Document.svg'
+import StrategyIcon from '../assets/logo/logos/StrategyIcon.svg'
+import ProjectStartIcon from '../assets/logo/logos/ProjectStartIcon.svg'
+import DevelopmentIcon from '../assets/logo/logos/DevelopmentIcon.svg'
+import TestingIcon from '../assets/logo/logos/TestingIcon.7ca6914a.svg'
 export default function Agile() {
   const Data = [
     {
@@ -14,33 +19,34 @@ export default function Agile() {
     },
     {
       tick:Tick,
-      image:Logo1,
+      image:Document,
       heading:"Initial Backlog Definition & Estimation",
       Text:'Break down the initial project into clear & understandable work pieces.',
       Text2:'Estimate the initial backlog in joint workshops using techniques like Poker Planning & Magic Estimation.',    
     },
     {
       tick:Tick,
-      image:Logo1,
+      image:StrategyIcon,
       heading:"Strategy & Planning",
-      Text:'Get to know your needs.',
+      Text:'We develop a comprehensive roadmap that outlines the scope, timeline, and deliverables for your project.',
     },
     {
       tick:Tick,
-      image:Logo1,
+      image:ProjectStartIcon,
       heading:"Project Starts",
+      mark:"!",
       Text:'We specialize in Agile Software Development, which is highly collaborative and efficient.',
       Text2:"First functional delivery in the first 2 sprints, guaranteed.",
     },
     {
       tick:Tick,
-      image:Logo1,
+      image:DevelopmentIcon,
       heading:"Development",
       Text:'Our engineers build your solution using best practices and modern technologies, with regular updates and demos.',
     },
     {
       tick:Tick,
-      image:Logo1,
+      image:TestingIcon,
       heading:"Testing & Launch",
       Text:'We rigorously test your application to ensure quality and performance before supporting you through a smooth launch.',
     },
@@ -58,7 +64,7 @@ export default function Agile() {
     {Data.map((item,index) =>(
 <div key={index} className='pt-16 xl:pt-20'>
   <img src={item.image} alt="error" />
-    <h3 className='pt-2.5 text-2xl lg:text-[28px] 2xl:text-[40px] font-semibold text-[#204285]'>{item.heading}!</h3>
+    <h3 className='pt-2.5 text-2xl lg:text-[28px] 2xl:text-[40px] font-semibold text-[#204285]'>{item.heading}{item.mark}</h3>
    
    <div  className='relative mt-6 md:ml-24 py-5 xl:py-8 pl-5 custom-border-box border-l-[6px] border-solid border-[#204285] rounded-bl-xl rounded-tl-xl' >
       
