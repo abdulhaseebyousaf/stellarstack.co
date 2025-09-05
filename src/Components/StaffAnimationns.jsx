@@ -43,15 +43,9 @@ export default function StaffAnimationns() {
   const contentCtrls = useAnimation();
   const timerRef = useRef(null);
 
+  // autoplay: bar fill -> content reveal -> next
   useEffect(() => {
-    DataImages.forEach(({ imageanimation }) => {
-      const img = new Image();
-      img.src = imageanimation;
-    });
-  }, []);
-
-  useEffect(() => {
-    const BAR_DURATION = 5.2; 
+    const BAR_DURATION = 5.2;   // seconds
     const CONTENT_DURATION = 0.45;
     const HOLD_AFTER = 0;
 
@@ -114,7 +108,7 @@ export default function StaffAnimationns() {
                       index
                     )} z-10 rounded-full`}
                     style={{ transformOrigin: "top" }}
-                    initial={{ scaleY: 0 }}
+                    initial={{ scaleY: 0,}}
                     animate={index === active ? barCtrls : { scaleY: 0 }}
                   />
                   <span className="relative z-20">{item.text}</span>
@@ -124,11 +118,10 @@ export default function StaffAnimationns() {
           </div>
 
           {/* Right column */}
-          <div className="relative w-full h-full min-h-[400px] rounded-2xl overflow-hidden">
+          <div className="relative w-full h-full min-h-[400px] rounded-2xl overflow-hidden max-[362px]:min-h-[520px]">
             <AnimatePresence mode="wait">
               <motion.div
                 key={active}
-                initial={{ opacity: 1 }} 
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0 }}
                 className="absolute inset-0 transition-opacity duration-500 ease-in-out bg-cover bg-center rounded-2xl "
@@ -136,17 +129,15 @@ export default function StaffAnimationns() {
                 {/* Background image */}
                 <motion.div
                   className="absolute inset-0 "
-                  initial={{ opacity: 1, scale: 1 }}
                   animate={{
                     scale: 1,
                     opacity: 1,
-                    transition: { duration: 0, ease: "easeOut", delay: 0 },
+                    transition: { duration: 0, ease: "easeOut", delay: 0,},
                   }}
                 >
                   <img
                     src={DataImages[active].imageanimation}
                     alt=""
-                    loading="eager" 
                     className="w-full h-full object-cover"
                   />
                 </motion.div>

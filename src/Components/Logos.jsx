@@ -38,6 +38,11 @@ import Logo37 from '../assets/logo/logos/Jira.490607ff.svg'
 import Logo38 from '../assets/logo/logos/Asana.d8c85970.svg'
 import Logo39 from '../assets/logo/logos/GitHub.a0253469.svg'
 import Logo40 from '../assets/logo/logos/GitLab.svg'
+import Redux from '../assets/logo/logos/Redux.svg'
+import Next from '../assets/logo/logos/Next.svg'
+import Vue from '../assets/logo/logos/Vue.svg'
+import svelte from '../assets/logo/logos/svelte.svg'
+import IonicFramwork from '../assets/logo/logos/IonicFramwork.svg'
   import React, { useEffect, useRef } from 'react';
 export default function Logos() {
     const divRef = useRef(null);
@@ -93,7 +98,28 @@ export default function Logos() {
         },
         {
             src: Logo10,
-            text: 'Material UI'
+            text: 'GreenSock'
+        },
+        // yaha add krna ha data
+        {
+src:Redux,
+            text: 'Redux'
+        },
+        {
+            src: Next,
+text:"Next.js"
+        },
+        {
+            src:Vue,
+text:"Vue.js"
+        },
+        {
+            src:svelte,
+text:"Svelte"
+        },
+        {
+            src:IonicFramwork,
+text:"Ionic Framwork"
         },
         {
             src: Logo11,

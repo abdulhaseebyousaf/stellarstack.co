@@ -39,13 +39,13 @@ export default function StaffArgument() {
             </div>
           </div>
           <div className="flex flex-col gap-[30px]">
-            <div className="relative group h-[352px] bg-[#CDD4DF] rounded-3xl  hover:rounded-[55px] overflow-hidden transition-all duration-300">
-              <div className="absolute inset-0 flex items-center justify-center  transition-opacity duration-500 group-hover:opacity-0 z-10">
+            <div className="relative group h-[352px] bg-[#CDD4DF] rounded-3xl active:rounded-[55px]  hover:rounded-[55px] overflow-hidden transition-all duration-300">
+              <div className="absolute inset-0 flex items-center justify-center  transition-opacity duration-500 group-hover:opacity-0 group-active:opacity-0 z-10">
                 <h3 className="text-3xl xl:text-2xl 2xl:text-3xl font-semibold text-center text-[#204285]">
                   The Result?
                 </h3>
               </div>
-              <div className="absolute bottom-0 left-0 right-0 translate-y-[330px] group-hover:translate-y-0 transition-transform duration-500 z-10">
+              <div className="absolute bottom-0 left-0 right-0 translate-y-[330px] group-hover:translate-y-0 group-active:translate-y-0 transition-transform duration-500 z-10">
                 <div className="bg-[#204285] text-white text-center px-3 py-4 2xl:py-8 rounded-t-[55px]  rounded-b-3xl h-[352px] flex items-center justify-center">
                   <p className="text-base lg:text-xl 2xl:text-2xl font-normal">
                     You get access to highly-qualified experts faster and at
@@ -58,13 +58,13 @@ export default function StaffArgument() {
                 </div>
               </div>
             </div>
-            <div className="relative group h-[352px] bg-[#CDD4DF] rounded-3xl overflow-hidden hover:rounded-[55px] transition-all duration-300">
-              <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-500 group-hover:opacity-0 z-10">
+            <div className="relative group h-[352px] bg-[#CDD4DF] rounded-3xl overflow-hidden hover:rounded-[55px] active:rounded-[55px] transition-all duration-300">
+              <div className="absolute inset-0 flex items-center justify-center transition-opacity duration-500 group-hover:opacity-0 group-active:opacity-0 z-10">
                 <h3 className="text-3xl xl:text-2xl 2xl:text-3xl font-semibold text-center text-[#204285]">
                   How?
                 </h3>
               </div>
-              <div className="absolute bottom-0 left-0 right-0 translate-y-[330px] group-hover:translate-y-0 transition-transform duration-500 z-10">
+              <div className="absolute bottom-0 left-0 right-0 translate-y-[330px] group-hover:translate-y-0 group-active:translate-y-0 transition-transform duration-500 z-10">
                 <div className="bg-[#204285] text-white text-center px-3 py-4 2xl:py-8 rounded-t-[55px]  rounded-b-3xl h-[352px] flex items-center justify-center">
                   <p className="text-base lg:text-xl 2xl:text-2xl font-normal">
                     With a team committed to yourbusiness success, working with

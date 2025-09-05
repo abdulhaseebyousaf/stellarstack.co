@@ -11,23 +11,22 @@ function Aboutus() {
         { 
       src: Logo1,      
 name: 'Our Foundation',
-strong:'',
-text: ' Established in 2019, Stellar Stack was built with the vision of redefining IT staff augmentation and digital innovation. We began with a tight-knit team of talented engineers from  Pakistan and Canada, aiming to deliver meaningful tech solutions with purpose and precision.',
+text: '<strong>Established in 2019</strong>, Stellar Stack was built with the vision of redefining IT staff augmentation and digital innovation. We began with a tight-knit team of talented engineers from <strong>Pakistan and Canada</strong>, aiming to deliver meaningful tech solutions with purpose and precision.',
          },
         { 
       src: Logo2,      
 name: 'What We Do',
-text: 'We specialize in software development services, offering tailored solutions and scaling tech teams based on client needs. Whether it’s full-cycle development or team augmentation, our agile mindset ensures every project is efficient, scalable, and forward-thinking.'
+text: 'We specialize in software development services, offering tailored solutions and scaling tech teams based on client needs. Whether it’s full-cycle development or team augmentation, our agile mindset ensures every project is <strong>efficient, scalable</strong>, and <strong>forward-thinking</strong>.'
          },
         { 
       src: Logo3,      
 name: 'Our Core Values',
-text: 'At Stellar Stack, we go beyond just delivering code. We’re a human-centered company, driven by values like teamwork, transparency, and collaboration. We deeply care about client satisfaction and the well-being of our team, making us more than just another tech company.'
+text: 'At Stellar Stack, we go beyond just delivering code. We’re a<span class="font-bold"> human-centered company,</span> driven by values like <strong> teamwork, transparency, and collaboration.</strong> We deeply care about <strong> client satisfaction</strong> and the <strong> well-being of our team,</strong> making us more than just another tech company.'
          },
         { 
       src: Logo4,      
 name: 'Driven by Passion',
-text: 'What sets us apart is our resilience, flexibility, and curiosity. Our team is fueled by a constant drive for excellence—ready to explore, create, and innovate with every project we take on. We’re not just building software; we’re building solutions that matter.'
+text: 'What sets us apart is our <strong> resilience, flexibility, and curiosity.</strong> Our team is fueled by a constant drive for <strong>excellence</strong>—ready to explore, create, and innovate with every project we take on. We’re not just building software; we’re building solutions that matter.'
          },
 ]
   return (
@@ -56,7 +55,9 @@ text: 'What sets us apart is our resilience, flexibility, and curiosity. Our tea
        </div>
         <div>
 <p className='text-[#204285] font-semibold text-2xl'>{shirt.name}</p>
-<p className='name mt-1 sm:mt-2 text-[13px] text-[#231F20] leading-5 '> <strong>{shirt.strong}</strong>{shirt.text}<strong>{shirt.second}</strong> </p>
+<p className='name mt-1 sm:mt-2 text-[13px] text-[#231F20] leading-5 '
+  dangerouslySetInnerHTML={{ __html: shirt.text }}
+> </p>
     </div>
         </div>
     ))

@@ -52,7 +52,7 @@ function Mobile() {
 
   return (
     <>
-      <div className="w-full bg-[#F9FAFB] py-16 lg:py-24 2XL:py-36">
+      <div className="w-full bg-[#F9FAFB] py-16 lg:py-24 2xl:py-36 relative">
         {/* Swiper */}
         <Swiper
           spaceBetween={50}
@@ -67,13 +67,13 @@ function Mobile() {
             <SwiperSlide key={index}>
               <div className="max-w-[1810px] mx-auto px-6 md:flex items-center gap-10 lg:gap-20 justify-between">
               {item.image &&
-                <div className="  md:w-[40%] max-sm:w-[40%] w-[150px] sm:w-[350px] max-md:w-[250px] lg:w-[300px] 2xl:w-[440px] mx-auto">
+                <div className="  md:w-[40%] max-sm:w-[50%] w-[150px] sm:w-[350px] max-md:w-[250px] lg:w-[300px] 2xl:w-[440px] mx-auto">
                   <img className="" src={item.image} alt="" />
                 </div>
                 // ye ho gya ha 
                 }
                 {item.secondsImage &&
-                  <div className="max-sm:h-[200px] md:w-[40%] max-md:mx-auto max-sm:w-[250px] max-md:w-[550px]">
+                  <div className=" md:w-[40%] max-sm:mx-auto max-sm:w-[250px] max-md:w-[550px]">
                   <img src={item.secondsImage} alt="" />
                 </div>
                 }
@@ -84,7 +84,7 @@ function Mobile() {
                   </div>
 
                   <div className="flex flex-col gap-0 xl:gap-6 2xl:gap-10 max-w-[970px] mb-8 xl:mb-14">
-                    <h1 className="text-[#231F20] text-3xl lg:text-4xl xl:text-[64px] leading-[72px] font-bold 2xl:mb-4">
+                    <h1 className="text-[#231F20] text-xl lg:text-4xl xl:text-[64px] leading-[72px] font-bold 2xl:mb-4">
                       {item.heading}
                     </h1>
                     <p className="xl:text-2xl 2xl:text-[40px] xl:leading-tight 2xl:leading-11">
