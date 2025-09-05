@@ -43,7 +43,7 @@ import Next from '../assets/logo/logos/Next.svg'
 import Vue from '../assets/logo/logos/Vue.svg'
 import svelte from '../assets/logo/logos/svelte.svg'
 import IonicFramwork from '../assets/logo/logos/IonicFramwork.svg'
-  import React, { useEffect, useRef } from 'react';
+  import React,{ useEffect, useRef } from 'react';
 export default function Logos() {
     const divRef = useRef(null);
         useEffect(() => {
