@@ -6,7 +6,7 @@ function CaseStudies() {
     { id: 1, 
       text: "Case Studies", 
       text1:
-        "Explore our detailed case studies to see how we’ve helped businesses across industries overcome challenges and achieve their goals with our tailored solutions.",
+        "Explore our detailed case studies to see how we've helped businesses across industries overcome challenges and achieve their goals with our tailored solutions.",
         text2: "Browse Case Studies" 
     },
     { id: 2,

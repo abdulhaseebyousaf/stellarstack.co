@@ -57,7 +57,7 @@ const Header = () => {
             <Link to="/">
               <button
                 type="button"
-                className='flex items-center mr-2 gap-2 rounded-md text-white bg-[#204285] hover:bg-[#163369] hover:shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer w-full lg:w-max text-sm font-medium px-3 py-1.5'
+                className='flex items-center max-lg:mr-0 mr-2 gap-2 rounded-md text-white bg-[#204285] hover:bg-[#163369] hover:shadow-lg transform hover:scale-105 transition-all duration-300 ease-in-out cursor-pointer w-full lg:w-max text-sm font-medium px-3 py-1.5'
               >
                 Contact Us
               </button>

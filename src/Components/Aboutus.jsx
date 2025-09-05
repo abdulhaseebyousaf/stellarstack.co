@@ -44,13 +44,13 @@ text: 'What sets us apart is our resilience, flexibility, and curiosity. Our tea
     </div>
 </div>
 <div className='relative'>
-    <img className='w-full sm:h-[766px] h-[860px] object-cover rounded-t-[20px] object-center' src={Image} alt="" />
+    <img className='w-full sm:h-[766px] h-[830px] object-cover rounded-t-[20px] object-center' src={Image} alt="" />
 <div className='absolute lg:-top-36 sm:-top-48 -top-[38%] left-1/2 -translate-x-1/2 flex flex-col text-center w-full justify-center'>
 <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 w-fit mx-auto gap-x-8 max-xl:gap-y-10 max-sm:gap-y-9 max-md:px-6'>
     {data.map((shirt, index)=> (
     
 <div key={index} 
-    className='mainbox md:w-[277px] md:min-h-[257px] max-w-[650px] bg-white rounded-[12px] relative shadow-md flex flex-col items-center text-center px-5 pb-4 sm:pt-8 pt-6 hover:scale-105 duration-500 transition-all  hover:bg-gradient-to-t from-[#3a66be96] to-[#4a97d2b2]'>
+    className='mainbox md:w-[277px] md:min-h-[257px] max-w-[650px] bg-white rounded-[12px] relative shadow-md flex flex-col items-center text-center px-5 pb-4 sm:pt-8 pt-6 hover:scale-105 duration-500 transition-all  hover:bg-[#3a66be96] '>
        <div className='sm:w-[60px] sm:h-[60px] w-[50px] h-[50px] rounded-full bg-[#204285] absolute flex items-center justify-center -top-7 z-10' >
 <img className='sm:w-6 sm:h-6 w-5 h-5' src={shirt.src} alt="" />
        </div>

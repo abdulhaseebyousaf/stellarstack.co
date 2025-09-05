@@ -8,7 +8,7 @@ export default function StaffLast() {
         <h2 className="max-w-[840px] pt-1.5 text-5xl xl:text-[64px] font-bold px-6">
           <span className="text-[#204285]">Get </span>
           <span className="text-[rgb(35, 31, 32)];">
-            a TOp-Performing team on board
+            a TOP-Performing team on board
           </span>
         </h2>
         <p className="pt-8 pb-12">

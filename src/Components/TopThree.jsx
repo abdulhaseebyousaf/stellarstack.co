@@ -9,6 +9,7 @@ export default function TopThree() {
     {
       id: 2,
       Text: "Our tech expert in the Talent Acquisition will be in charge of checking with a Live Technical Assessment the level of the candidate to make sure it fits your needs.",
+      secondtext:"Our tech expert in the Talent Acquisition will be in charge of checking with a Live Technical Assessment the level of the candidate to make sure it fits your needs."
     },
     {
       id: 3,
@@ -42,10 +43,13 @@ export default function TopThree() {
               <div key={index}>
                 <div
                   className={`${
-                    index === 1 ? "flex justify-end" : "flex items-center"
+                    index === 1 ? "flex justify-end " : "flex items-center"
                   }`}
                 >
-                  <p className="flex items-center max-w-[600px] 2xl:max-w-[680px] min-h-[251px] md:min-h-52 2xl:min-h-[245px] max-md:px-7 pr-3 mb-20 sm:mb-16 md:mb-24 2xl:mb-36 text-base md:text-xl 2xl:text-2xl font-normal border-b rounded-[45px] text-white bg-[#204285] shadow-[0px_6px_0px_#000000] max-[1180px]:pl-24 pl-20">{item.Text}</p>
+                  <p className="flex  items-center max-w-[600px] 2xl:max-w-[680px] min-h-[251px] md:min-h-52 2xl:min-h-[245px] max-md:px-7 pr-3 mb-20 sm:mb-16 md:mb-24 2xl:mb-36 text-base md:text-xl 2xl:text-2xl font-normal border-b rounded-[45px] text-white bg-[#204285] shadow-[0px_6px_0px_#000000] max-[1180px]:pl-24 pl-20">{item.Text}</p>
+                  {/* {item.secondtext &&
+                  <p className="flex items-center md:hidden max-w-[600px] 2xl:max-w-[680px] min-h-[251px] md:min-h-52 2xl:min-h-[245px] max-md:px-7 pr-3 mb-20 sm:mb-16 md:mb-24 2xl:mb-36 text-base md:text-xl 2xl:text-2xl font-normal border-b rounded-[45px] text-white bg-[#204285] shadow-[0px_6px_0px_#000000] max-[1180px]:pl-24 pl-20">{item.secondtext}</p>
+                  } */}
                 </div>
               </div>
             ))}

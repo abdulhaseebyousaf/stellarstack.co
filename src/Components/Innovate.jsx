@@ -59,7 +59,7 @@ const IPLshirts = [
       {IPLshirts.map((shirt, index) => (
         <div
           key={index}
-          className='mainbox bg-white p-6   hover:scale-[1.02] transition-transform duration-500 ease-out hover:bg-gradient-to-r from-[#3a66be96] to-[#4a97d2b2]  rounded-lg shadow-lg hover:shadow-xl'
+          className='mainbox bg-white p-6   hover:scale-[1.02] transition-all duration-500  hover:bg-[#3a66be96]   rounded-lg shadow-lg hover:shadow-md'
         >
                   <div className='flex justify-center items-center  size-[72px] rounded-full bg-[#204285]'>
             <img className='h-10 w-10' src={shirt.src} alt="web dev" />

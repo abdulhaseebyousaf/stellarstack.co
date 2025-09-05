@@ -43,9 +43,15 @@ export default function StaffAnimationns() {
   const contentCtrls = useAnimation();
   const timerRef = useRef(null);
 
-  // autoplay: bar fill -> content reveal -> next
   useEffect(() => {
-    const BAR_DURATION = 5.2;   // seconds
+    DataImages.forEach(({ imageanimation }) => {
+      const img = new Image();
+      img.src = imageanimation;
+    });
+  }, []);
+
+  useEffect(() => {
+    const BAR_DURATION = 5.2; 
     const CONTENT_DURATION = 0.45;
     const HOLD_AFTER = 0;
 
@@ -53,7 +59,7 @@ export default function StaffAnimationns() {
 
     const run = async () => {
       barCtrls.set({ scaleY: 0 });
-      contentCtrls.set({ opacity: 0, y: 12 });
+      contentCtrls.set({ opacity: 1, y: 12 });
 
       await barCtrls.start({
         scaleY: 1,
@@ -95,8 +101,6 @@ export default function StaffAnimationns() {
                   key={index}
                   onClick={() => {
                     if (timerRef.current) clearTimeout(timerRef.current);
-                    barCtrls.stop();
-                    contentCtrls.stop();
                     setActive(index);
                   }}
                   className={`relative pl-4 text-left py-2 text-2xl md:text-4xl font-bold transition-colors duration-300 cursor-pointer hover:text-[#204285] ${itemColor(
@@ -110,8 +114,8 @@ export default function StaffAnimationns() {
                       index
                     )} z-10 rounded-full`}
                     style={{ transformOrigin: "top" }}
-                    initial={{ scaleY: 0,opacity:1 }}
-                    animate={index === active ? barCtrls : { scaleY: 0, opacity:1 }}
+                    initial={{ scaleY: 0 }}
+                    animate={index === active ? barCtrls : { scaleY: 0 }}
                   />
                   <span className="relative z-20">{item.text}</span>
                 </button>
@@ -124,23 +128,25 @@ export default function StaffAnimationns() {
             <AnimatePresence mode="wait">
               <motion.div
                 key={active}
+                initial={{ opacity: 1 }} 
                 animate={{ opacity: 1 }}
                 transition={{ duration: 0 }}
-                className="absolute inset-0"
+                className="absolute inset-0 transition-opacity duration-500 ease-in-out bg-cover bg-center rounded-2xl "
               >
                 {/* Background image */}
                 <motion.div
-                  className="absolute inset-0 bg-cover bg-center rounded-2xl overflow-hidden"
-                  initial={{ scale: 0.0,}}
+                  className="absolute inset-0 "
+                  initial={{ opacity: 1, scale: 1 }}
                   animate={{
                     scale: 1,
                     opacity: 1,
-                    transition: { duration: 0, ease: "easeOut", delay: 0,},
+                    transition: { duration: 0, ease: "easeOut", delay: 0 },
                   }}
                 >
                   <img
-                    src={DataImages[active]?.imageanimation}
+                    src={DataImages[active].imageanimation}
                     alt=""
+                    loading="eager" 
                     className="w-full h-full object-cover"
                   />
                 </motion.div>
@@ -148,20 +154,20 @@ export default function StaffAnimationns() {
                 {/* Foreground content */}
                 <motion.div
                   animate={contentCtrls}
-                  className="relative z-20 w-full h-full p-6 md:p-10 flex flex-col justify-end text-white bg-gradient-to-t from-black/50 via-black/20 to-transparent"
+                  className="relative z-20 w-full h-full p-6 md:p-10 opacity-100 flex flex-col justify-end text-white "
                 >
                   <div className="size-[52px] rounded-full flex items-center justify-center mb-4 bg-[#204285] shadow-md">
                     <img
                       className="h-6 w-6"
-                      src={DataImages[active]?.LogoImage}
+                      src={DataImages[active].LogoImage}
                       alt=""
                     />
                   </div>
                   <h3 className="text-2xl md:text-3xl font-semibold">
-                    {DataImages[active]?.secondtext}
+                    {DataImages[active].secondtext}
                   </h3>
                   <p className="text-base md:text-lg font-normal ">
-                    {DataImages[active]?.description}
+                    {DataImages[active].description}
                   </p>
                 </motion.div>
               </motion.div>

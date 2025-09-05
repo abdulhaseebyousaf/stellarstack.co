@@ -29,10 +29,10 @@ export default function Journey() {
   return (
     <div className='bg-[#e3e5da]'>
         <div className='max-w-[1527px] mx-auto px-6 pt-16 lg:pt-24 2xl:pt-32'>
-            <h2 className="text-lg font-bold text-center text-[#020817]">YOUR IT STAFFING JOURNEY WITH STELLARStack</h2>
+            <h2 className="text-lg font-bold text-center text-[#020817]">YOUR IT STAFFING JOURNEY WITH STELLAR Stack</h2>
 <div  className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 xl:gap-12 mt-12'>
 {Data.map((item, index) =>(
-<div key={index} className='mainbox bg-[#CDD4DF] px-5 py-6 rounded-2xl hover:scale-105 duration-500 shadow-lg hover:shadow-xl   hover:bg-gradient-to-t from-[#3a66be96] to-[#4a97d2b2]'>
+<div key={index} className='mainbox bg-[#CDD4DF] px-5 py-6 rounded-2xl hover:scale-105 duration-500 shadow-lg hover:shadow-xl   hover:bg-[#3a66be96]  '>
     <div className="flex justify-center items-center size-11 rounded-full bg-[#204285]">
 <img src={item.image} alt="" />
     </div>

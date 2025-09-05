@@ -32,7 +32,7 @@ function ValuesMission() {
             <div className='mt-8 flex flex-col items-center gap-16'>
                 <div className='flex flex-wrap justify-center items-center xl:gap-16 gap-10 mx-auto w-fit'>
                         {data.map((items, index) => (
-                            <div key={index} className='mainbox md:w-[303px] w-full hover:scale-105 hover:duration-500  h-auto hover:shadow-lg duration-500 bg-[#CDD4DF] border border-[#00000014] rounded-2xl px-2 py-4 flex flex-col justify-center items-center gap-2 hover:bg-gradient-to-t from-[#3a66be96] to-[#4a97d2b2]'>
+                            <div key={index} className='mainbox md:w-[303px] w-full hover:scale-105   h-auto hover:shadow-lg duration-500 bg-[#CDD4DF] border border-[#00000014] rounded-2xl px-2 py-4 flex flex-col justify-center items-center gap-2 hover:bg-[#3a66be96]  '>
     <div className='w-10 h-10 bg-[#204285] rounded-full flex items-center justify-center shadow-[0_5px_15px_#00000040]' > 
         <img src={items.src} alt="" /> 
          </div>                            

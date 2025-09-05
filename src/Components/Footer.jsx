@@ -82,13 +82,13 @@ function Footer() {
               </li>
             </ul>
           </div>
-          <div class="pl-2 max-[550px]:block hidden">
-            <p class="text-xs text-[#204285] leading-5">
+          <div className="pl-2 max-[550px]:block hidden">
+            <p className="text-xs text-[#204285] leading-5">
               <a href="/privacy-policy">Privacy Policy </a> |
               <a href="/terms-&amp;-conditions">Terms &amp; Conditions</a>
             </p>
             <a href="tel:+17782270782">
-              <p class="text-xs text-[#204285] leading-5">+1 778 227 0782</p>
+              <p className="text-xs text-[#204285] leading-5">+1 778 227 0782</p>
             </a>
           </div>
         </div>

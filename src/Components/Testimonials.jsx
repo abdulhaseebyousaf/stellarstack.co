@@ -126,7 +126,7 @@
                 <img src={Left} alt="next" className="w-2.5 ml-1 rotate-180" />
               </button>
             </Swiper>
-            <div className="custom-pagination mt-8 relative flex justify-center" />
+            <div className="custom-pagination mt-9 relative flex justify-center" />
           </div>
         </div>
       </section>
